@@ -1,2 +1,3 @@
-# personalrep
-Personal Repository
+# Readme
+
+This is my personal repository
