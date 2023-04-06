@@ -1,0 +1,1 @@
+{"io_name":"RECORDER_three_phase_circuit_Sim01_SM_master","io_config_file_name":"FA8DC188-6D2D-456A-935A-93B06F613536.opal","bus_in":{"name":"bus_RECORDER_three_phase_circuit_Sim01_SM_master_in","type":"bus","items":[{"name":"SIGNAL_GROUP_1","type":"bus","items":[{"name":"log_input","type":"F64","num_point":"1"},{"name":"trigger_input","type":"F64","num_point":"1"}]}]}}

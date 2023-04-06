@@ -1,0 +1,14 @@
+[
+  {"version":2},
+  {
+    "Opal::Simulation::SerializeableAliasList":
+    {
+      "name":"1DED42B9-7E6B-4ACF-BA8C-5AAD18886FDA",
+      "aliasSets":
+      [
+        "458E9141-6C07-4926-A8E2-12CEA889D2DE"
+      ],
+      "parent":"/"
+    }
+  }
+]

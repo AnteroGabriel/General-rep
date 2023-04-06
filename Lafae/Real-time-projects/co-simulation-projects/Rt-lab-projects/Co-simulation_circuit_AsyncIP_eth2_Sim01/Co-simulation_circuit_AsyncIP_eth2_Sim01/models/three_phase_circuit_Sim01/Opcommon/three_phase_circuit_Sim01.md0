@@ -1,0 +1,82 @@
+[GENERATION.REDHAWK.SETTINGS]
+CompilerVersion=Automatic
+PlatformDependent=yes
+RTLAB_Version=v2022.1.0.405undefined
+[INTERNAL]
+LAST_PLATFORM=4
+[SEPARATION.SETTINGS]
+CompilerVersion=AUTOMATIC
+MATLAB_VERSION=167
+PostBuildCmd=
+PreBuildCmd=
+RTLAB_Version=v2022.1.0.405undefined
+[SEPARATION]
+Opcommon\three_phase_circuit_Sim01.subsys=exists
+Opcommon\three_phase_circuit__1_sm_master.slx=exists
+three_phase_circuit_Sim01.slx=b77d02b8218ca8b2f9d210623b56db55@01/17/23 17:44:29
+three_phase_circuit_sim01_2_sc_console.slx=exists
+[GENERATION.REDHAWK]
+..\..\..\..\..\..\..\OPAL-RT\RT-LAB\2022.1\Simulink\rtw\c\common\rtlab_rtmodel.tlc=649c42bccd471daa642662d96f043530@06/13/22 20:11:14
+..\..\..\..\..\..\..\OPAL-RT\RT-LAB\2022.1\Simulink\rtw\c\common\rtlab_rtmodel.tmf=a3727197ad8834b62a42d24ce3f66358@06/13/22 20:11:14
+Opcommon\three_phase_circuit_Sim01.param=f89856ceb690486a3b08e843fcc0f333@01/17/23 17:45:44
+Opcommon\three_phase_circuit_Sim01.signal=787e723b954c094610979768e54aba0c@01/17/23 17:45:44
+Opcommon\three_phase_circuit_Sim01.subsys=2795208dc8d8e9e3d1c55d2c0a7e8670@01/17/23 17:45:26
+Opcommon\three_phase_circuit__1_sm_master.slx=3e64887df012e7c4dd740fb5a8be48c4@01/17/23 17:45:23
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\OpalSnapshotUtil.c=exists
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\builtin_typeid_types.h=exists
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\multiword_types.h=exists
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\rtGetInf.c=exists
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\rtGetInf.h=exists
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\rtGetNaN.c=exists
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\rtGetNaN.h=exists
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\rt_defines.h=exists
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\rt_nonfinite.c=exists
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\rt_nonfinite.h=exists
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\rtmodel.h=exists
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\rtwtypes.h=exists
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\settings.json=exists
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\three_phase_circuit__1_sm_master.c=exists
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\three_phase_circuit__1_sm_master.h=exists
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\three_phase_circuit__1_sm_master.mk=exists
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\three_phase_circuit__1_sm_master_data.c=exists
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\three_phase_circuit__1_sm_master_offsets.c=exists
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\three_phase_circuit__1_sm_master_private.h=exists
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\three_phase_circuit__1_sm_master_types.h=exists
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\zero_crossing_types.h=exists
+[COMPILATION.REDHAWK]
+..\..\..\..\..\..\..\OPAL-RT\RT-LAB\2022.1\Simulink\rtw\c\common\model_main.c=20126176871ed37bdf13744f2fad163e@06/13/22 20:11:14
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\OpalSnapshotUtil.c=147bd97345056eab5121c8ac710b1079@01/17/23 17:45:44
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\builtin_typeid_types.h=def612b1e23a4c143784887e7e034131@01/17/23 17:45:40
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\multiword_types.h=bf7b196f8d1c9faaa27de55c33e38456@01/17/23 17:45:40
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\rtGetInf.c=256d0abf4bff515f93a456831aa87ad4@01/17/23 17:45:40
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\rtGetInf.h=a120f861c22a4733a51cf18c86dffef4@01/17/23 17:45:38
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\rtGetNaN.c=c21dda3a66f71fea3e0a70ec8ceaa4c3@01/17/23 17:45:40
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\rtGetNaN.h=22aa634cdde3d8dc9c5d53a55dccc174@01/17/23 17:45:38
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\rt_defines.h=7055affac97b275daf617aa429424ea4@01/17/23 17:45:38
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\rt_nonfinite.c=c9ed040624c5d317914d03b420f732b1@01/17/23 17:45:40
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\rt_nonfinite.h=fe8ab8747a436ce0c3bbc639596df157@01/17/23 17:45:38
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\rtmodel.h=402b008f554cc711a06174297284c82a@01/17/23 17:45:40
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\rtwtypes.h=21b78c6106ff413d42be5d1ea0408ecb@01/17/23 17:45:40
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\settings.json=01a682bbb5916fbfc63af7bcfe427f90@01/17/23 17:45:46
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\three_phase_circuit__1_sm_master=exists
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\three_phase_circuit__1_sm_master.c=4df19315fa1bf963d8fbd4a6b44846c2@01/17/23 17:45:47
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\three_phase_circuit__1_sm_master.h=552ef853804225d96159113104e31cb9@01/17/23 17:45:40
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\three_phase_circuit__1_sm_master.mk=13e1159a1d9d328ae9dd0beabd1ffe2f@01/17/23 17:45:41
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\three_phase_circuit__1_sm_master_data.c=6702b64b6bbba7e06544e554edf60562@01/17/23 17:45:40
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\three_phase_circuit__1_sm_master_offsets.c=98dfd89b1753b9a486e70a45620db576@01/17/23 17:45:40
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\three_phase_circuit__1_sm_master_private.h=09da82d6c384f10c7f769f6f1b4889b4@01/17/23 17:45:40
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\three_phase_circuit__1_sm_master_types.h=46a1170987ba5adde2342ce84553df83@01/17/23 17:45:40
+three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\zero_crossing_types.h=ae5ea87e47fe96dc5e971cdf03c73e80@01/17/23 17:45:40
+[COMPILATION.REDHAWK.SETTINGS]
+CompilerVersion=Automatic
+DEBUG=0
+DevNodeIP=146.164.78.204
+DevNodeOSVersion=Red Hat 5.2 (2.6.29.6-opalrt-6.2.1)
+EXT_CC_OPTS=
+EXT_LD_OPTS=
+EXT_LIB=
+EXT_LIBPATH=
+RTLAB_Version=v2022.1.0.405undefined
+TargetCompileCmd=
+USER_INCS=
+USER_SRCS=

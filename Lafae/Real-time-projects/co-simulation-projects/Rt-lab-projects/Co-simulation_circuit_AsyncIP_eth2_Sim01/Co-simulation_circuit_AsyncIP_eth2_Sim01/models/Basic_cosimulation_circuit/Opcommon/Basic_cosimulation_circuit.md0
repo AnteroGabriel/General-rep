@@ -1,0 +1,97 @@
+[GENERATION.REDHAWK.SETTINGS]
+CompilerVersion=Automatic
+PlatformDependent=yes
+RTLAB_Version=v2022.1.0.405undefined
+[INTERNAL]
+LAST_PLATFORM=4
+[SEPARATION.SETTINGS]
+CompilerVersion=AUTOMATIC
+MATLAB_VERSION=169
+PostBuildCmd=
+PreBuildCmd=
+RTLAB_Version=v2022.1.0.405undefined
+[SEPARATION]
+Basic_cosimulation_circuit.slx=60d17550d8a8d75c41c77c5bef5386d2@03/16/23 12:51:10
+Opcommon\Basic_cosimulation_circuit.subsys=exists
+Opcommon\basic_cosimulation_c_1_sm_master.slx=exists
+basic_cosimulation_circuit_2_sc_console.slx=exists
+[GENERATION.REDHAWK]
+..\..\..\..\..\..\..\OPAL-RT\RT-LAB\2022.1\Simulink\rtw\c\common\rtlab_rtmodel.tlc=649c42bccd471daa642662d96f043530@06/13/22 20:11:14
+..\..\..\..\..\..\..\OPAL-RT\RT-LAB\2022.1\Simulink\rtw\c\common\rtlab_rtmodel.tmf=a3727197ad8834b62a42d24ce3f66358@06/13/22 20:11:14
+Opcommon\Basic_cosimulation_circuit.param=d428a22e2d3477c496f99a45fbd87794@03/16/23 12:54:35
+Opcommon\Basic_cosimulation_circuit.signal=267f465e2cdee28313a3242319d4a3b4@03/16/23 12:54:35
+Opcommon\Basic_cosimulation_circuit.subsys=c2d44af018971f21d4238f9c1e26532c@03/16/23 12:54:05
+Opcommon\basic_cosimulation_c_1_sm_master.slx=808fc3755aa6d28bc5a5f5588b68e839@03/16/23 12:54:02
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\OpalSnapshotUtil.c=exists
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\basic_cosimulation_c_1_sm_master.c=exists
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\basic_cosimulation_c_1_sm_master.h=exists
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\basic_cosimulation_c_1_sm_master.mk=exists
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\basic_cosimulation_c_1_sm_master_data.c=exists
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\basic_cosimulation_c_1_sm_master_offsets.c=exists
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\basic_cosimulation_c_1_sm_master_private.h=exists
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\basic_cosimulation_c_1_sm_master_types.h=exists
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\builtin_typeid_types.h=exists
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\multiword_types.h=exists
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\rtGetInf.c=exists
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\rtGetInf.h=exists
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\rtGetNaN.c=exists
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\rtGetNaN.h=exists
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\rt_defines.h=exists
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\rt_nonfinite.c=exists
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\rt_nonfinite.h=exists
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\rtmodel.h=exists
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\rtwtypes.h=exists
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\settings.json=exists
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\zero_crossing_types.h=exists
+[COMPILATION.REDHAWK]
+..\..\..\..\..\..\..\OPAL-RT\RT-LAB\2022.1\Simulink\rtw\c\common\model_main.c=20126176871ed37bdf13744f2fad163e@06/13/22 20:11:14
+Makefile.mk=e645cecd2fc8339b7741bba4dfa65680@12/24/22 11:05:21
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\OpalSnapshotUtil.c=f2ce6518fa7f980f21b1a29e5651cc84@03/16/23 12:54:35
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\basic_cosimulation_c_1_sm_master=exists
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\basic_cosimulation_c_1_sm_master.c=3915e07dbcc58bc90e4b983ccd70d3ca@03/16/23 12:54:43
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\basic_cosimulation_c_1_sm_master.h=4765ebf17ef0256211d5d689b54778c2@03/16/23 12:54:30
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\basic_cosimulation_c_1_sm_master.mk=1df6170d8866d13664f7fbd4b40eab26@03/16/23 12:54:32
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\basic_cosimulation_c_1_sm_master_data.c=e54858a32d33aff2f690b2f1cb103d4f@03/16/23 12:54:30
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\basic_cosimulation_c_1_sm_master_offsets.c=caeb19207a3bd1ee70006c69a2bb3bf0@03/16/23 12:54:30
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\basic_cosimulation_c_1_sm_master_private.h=a979d2129b87902748999fcc93b09758@03/16/23 12:54:30
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\basic_cosimulation_c_1_sm_master_types.h=c1b2dc3cbaec88c20cf9e5a4dbf5b1cb@03/16/23 12:54:30
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\builtin_typeid_types.h=def612b1e23a4c143784887e7e034131@03/16/23 12:54:30
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\multiword_types.h=bf7b196f8d1c9faaa27de55c33e38456@03/16/23 12:54:30
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\rtGetInf.c=256d0abf4bff515f93a456831aa87ad4@03/16/23 12:54:30
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\rtGetInf.h=a120f861c22a4733a51cf18c86dffef4@03/16/23 12:54:27
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\rtGetNaN.c=ece9ada9d5349939c10708ecf791304f@03/16/23 12:54:30
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\rtGetNaN.h=22aa634cdde3d8dc9c5d53a55dccc174@03/16/23 12:54:27
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\rt_defines.h=7055affac97b275daf617aa429424ea4@03/16/23 12:54:27
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\rt_nonfinite.c=c9ed040624c5d317914d03b420f732b1@03/16/23 12:54:30
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\rt_nonfinite.h=fe8ab8747a436ce0c3bbc639596df157@03/16/23 12:54:27
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\rtmodel.h=3c005ec8ce94453f2d50914c0f0de14d@03/16/23 12:54:30
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\rtwtypes.h=4d5c7cf6abbb417f48aa655261ab3da4@03/16/23 12:54:30
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\settings.json=532021fd483bdd10247f8a53ed0078fb@03/16/23 12:54:43
+basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\zero_crossing_types.h=ae5ea87e47fe96dc5e971cdf03c73e80@03/16/23 12:54:30
+include\config.h=d0dd7405aa9cdd012cf58da00df83c0b@12/24/22 11:05:21
+include\msg.h=8eee9094174ba6693af23b6c1e2d68f7@12/24/22 11:05:21
+include\msg_format.h=776fe75de1a6ca40d262bcdf77016481@12/24/22 11:05:21
+include\socket.h=110f238401b448b7fd53a84e802f802c@12/24/22 11:05:21
+include\utils.h=59bf213b2d720aae31fe712a03a19655@12/24/22 11:05:21
+src\compat.c=e96112642e7c531fe548bfa4a07b66b3@12/24/22 11:05:21
+src\main.asv=bd02232b1fefa926fbca2d93a415f76a@12/24/22 11:05:21
+src\main.c=de472629bdb889aa3f6fc5998b9ed03c@12/24/22 11:05:21
+src\msg.c=baaa0d4f1a73856fcf4d90914d0f888c@12/24/22 11:05:21
+src\socket.c=c04a00ebca18c2796b01488b23c4ea4d@12/24/22 11:05:21
+src\utils.c=b4cc2dacfbda747fd585830690f09df5@12/24/22 11:05:21
+[COMPILATION.REDHAWK.VOLATILE]
+..\..\..\..\..\..\..\OPAL-RT\ARTEMIS\v7.7.3.147\art_r2021b\lib\redhawk\artemis_rt773147r2021br.a=ef7b0d9f7663afc6058e2ef7e9b4590a@01/18/23 12:56:06
+..\..\..\..\..\..\..\OPAL-RT\RT-EVENTS\v4.7.3.46\rte_r2021b\lib\redhawk\libRtEvents_RT47346R2021br.a=b2fcfdb2014dcb48d6854bdbec349ff4@12/13/22 00:31:02
+[COMPILATION.REDHAWK.SETTINGS]
+CompilerVersion=Automatic
+DEBUG=0
+DevNodeIP=146.164.78.85
+DevNodeOSVersion=Red Hat 5.2 (2.6.29.6-opalrt-6.2.1)
+EXT_CC_OPTS=
+EXT_LD_OPTS=
+EXT_LIB=
+EXT_LIBPATH=
+RTLAB_Version=v2022.1.0.405undefined
+TargetCompileCmd=/usr/bin/make -f /usr/opalrt/common/bin/opalmodelmk
+USER_INCS=
+USER_SRCS=

@@ -1,0 +1,7 @@
+
+--------------- Transferring files ... ------------------------------
+
+Transferring in binary: C:\Users\Antero\OPAL-RT\RT-LABv2022.1_Workspace\Co-simulation_circuit_AsyncIP_eth2_Sim01\models\three_phase_circuit_Sim01\three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\three_phase_circuit__1_sm_master (SM_master) ... OK.
+Transferring in binary: C:\Users\Antero\OPAL-RT\RT-LABv2022.1_Workspace\Co-simulation_circuit_AsyncIP_eth2_Sim01\models\three_phase_circuit_Sim01\three_phase_circuit_sim01_sm_master\OpREDHAWKtarget\AsyncIP (SM_master) ... Failed.
+Executing script /usr/opalrt/v2022.1.0.405/common/python/rtlab/global/target_postreset.py ... done
+Executing script /usr/opalrt/v2022.1.0.405/common/python/rtlab/global/target_subsys_postreset.py ... done

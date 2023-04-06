@@ -1,0 +1,31 @@
+[S-Function list]
+basic_cosimulation_c_1_sm_master/SM_Master/Circuit1/PWM/RTE Conversion1=0
+basic_cosimulation_c_1_sm_master/SM_Master/Circuit1/PWM/RTE SPWM1=0
+basic_cosimulation_c_1_sm_master/SM_Master/Circuit1/Phasor_to_Time_Domain_SFA/Phase__ Frequency Offset=1
+basic_cosimulation_c_1_sm_master/SM_Master/Circuit1/Time_Domain_To_Phasor_SFA/Phase__ Frequency Offset=1
+basic_cosimulation_c_1_sm_master/SM_Master/OpAsyncRecv/S-Function1=0
+basic_cosimulation_c_1_sm_master/SM_Master/OpComm/Receive/S-Function=0
+basic_cosimulation_c_1_sm_master/SM_Master/OpIPSocketCtrl1=0
+basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/PWM/RTE Conversion1=0
+basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/PWM/RTE SPWM1=0
+basic_cosimulation_c_1_sm_master/SM_Master/rtlab_send_subsystem/Subsystem1/Send1/S-Function=0
+basic_cosimulation_c_1_sm_master/SM_Master/send message 1/S-Function2=0
+[S-Function parameters]
+basic_cosimulation_c_1_sm_master/SM_Master/Circuit1/Phasor_to_Time_Domain_SFA/Phase__ Frequency Offset/P1=Phase offset (deg):
+basic_cosimulation_c_1_sm_master/SM_Master/Circuit1/Phasor_to_Time_Domain_SFA/Phase__ Frequency Offset/P3=Frequency offset (Hz):
+basic_cosimulation_c_1_sm_master/SM_Master/Circuit1/Time_Domain_To_Phasor_SFA/Phase__ Frequency Offset/P1=Phase offset (deg):
+basic_cosimulation_c_1_sm_master/SM_Master/Circuit1/Time_Domain_To_Phasor_SFA/Phase__ Frequency Offset/P3=Frequency offset (Hz):
+[S-Function files]
+basic_cosimulation_c_1_sm_master/SM_Master/Circuit1/PWM/RTE Conversion1=rte_conversion
+basic_cosimulation_c_1_sm_master/SM_Master/Circuit1/PWM/RTE SPWM1=rte_svpwm
+basic_cosimulation_c_1_sm_master/SM_Master/Circuit1/Phasor_to_Time_Domain_SFA/Phase// Frequency Offset=scomfreqoffset
+basic_cosimulation_c_1_sm_master/SM_Master/Circuit1/Time_Domain_To_Phasor_SFA/Phase// Frequency Offset=scomfreqoffset
+basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/PWM/RTE Conversion1=rte_conversion
+basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/PWM/RTE SPWM1=rte_svpwm
+[S-Function modules]
+basic_cosimulation_c_1_sm_master/SM_Master/Circuit1/PWM/RTE Conversion1=''
+basic_cosimulation_c_1_sm_master/SM_Master/Circuit1/PWM/RTE SPWM1=''
+basic_cosimulation_c_1_sm_master/SM_Master/Circuit1/Phasor_to_Time_Domain_SFA/Phase// Frequency Offset=''
+basic_cosimulation_c_1_sm_master/SM_Master/Circuit1/Time_Domain_To_Phasor_SFA/Phase// Frequency Offset=''
+basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/PWM/RTE Conversion1=''
+basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/PWM/RTE SPWM1=''

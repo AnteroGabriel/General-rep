@@ -1,0 +1,13 @@
+[
+  {"version":2},
+  {
+    "Settings":
+    {
+      "libraryPath":"/usr/opalrt/common/bin/",
+      "masterNodeHttpPort":2525,
+      "modulesPath":"",
+      "outputPath":"C:\\Users\\Antero\\OPAL-RT\\RT-LABv2022.1_Workspace\\Co-simulation_circuit_AsyncIP_eth2_Sim01\\models\\Basic_cosimulation_circuit",
+      "sessionNodesHttpPortFirst":25250
+    }
+  }
+]

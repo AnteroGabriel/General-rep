@@ -1,0 +1,1854 @@
+SM_Master/Original Circuit/Control/Current Control/Saturation/UpperLimit
+/
+
+0
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Phase-A I/Corrected discrete transport delay/delta/Gain
+/
+
+1
+F64
+1
+SM_Master/Original Circuit/Control/Current Control/Constant2/Value
+/
+
+2
+F64
+1
+SM_Master/Original Circuit/Control/Power Control/Constant/Value
+/
+
+3
+F64
+1
+SM_Master/Original Circuit/Control/Current Control/Gain5/Gain
+/
+
+4
+F64
+1
+SM_Master/Original Circuit/PWM/Constant11/Value
+/
+
+5
+F64
+1
+SM_Master/Original Circuit/Control/Current Control/Gain2/Gain
+/
+
+6
+F64
+1
+SM_Master/Original Circuit/Control/Current Control/Gain1/Gain
+/
+
+7
+F64
+1
+SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Phase-A I/Gain/Gain
+/
+
+8
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Phase-A I/Gain/Gain
+/
+
+9
+F64
+1
+SM_Master/Original Circuit/Three-Phase Source/Model/Sine Wave A/Frequency
+/
+
+10
+F64
+1
+SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/SinCos/Radial frequencies/Value
+/
+
+11
+F64
+4
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/SinCos/Radial frequencies/Value
+/
+
+12
+F64
+1
+SM_Master/VSC_ITM_SFA/Phasor_to_Time_Domain_SFA/Integrator with Wrapped State (Discrete or Continuous)/Discrete/Compare To Constant/Constant/Value
+/
+
+13
+F64
+1
+SM_Master/VSC_ITM_SFA/Time_Domain_To_Phasor_SFA/Integrator with Wrapped State (Discrete or Continuous)/Discrete/Compare To Constant/Constant/Value
+/
+
+14
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/SinCos/Integrator with Wrapped State (Discrete or Continuous)/Discrete/Compare To Constant/Constant/Value
+/
+
+15
+F64
+1
+SM_Master/VSC_ITM_SFA/Phasor_to_Time_Domain_SFA/Integrator with Wrapped State (Discrete or Continuous)/Discrete/Compare To Constant1/Constant/Value
+/
+
+16
+F64
+1
+SM_Master/VSC_ITM_SFA/Time_Domain_To_Phasor_SFA/Integrator with Wrapped State (Discrete or Continuous)/Discrete/Compare To Constant1/Constant/Value
+/
+
+17
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/SinCos/Integrator with Wrapped State (Discrete or Continuous)/Discrete/Compare To Constant1/Constant/Value
+/
+
+18
+F64
+1
+SM_Master/VSC_ITM_SFA/Time_Domain_To_Phasor_SFA/Frequency Offset/Value
+/
+
+19
+F64
+1
+SM_Master/VSC_ITM_SFA/Phasor_to_Time_Domain_SFA/Constant/Value
+/
+
+20
+F64
+1
+SM_Master/VSC_ITM_SFA/Phasor_to_Time_Domain_SFA/Integrator with Wrapped State (Discrete or Continuous)/Discrete/Initial/Value
+/
+
+21
+F64
+1
+SM_Master/VSC_ITM_SFA/Time_Domain_To_Phasor_SFA/Integrator with Wrapped State (Discrete or Continuous)/Discrete/Initial/Value
+/
+
+22
+F64
+1
+SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/SinCos/Integrator with Wrapped State (Discrete or Continuous)/Continuous/Integrator/InitialCondition
+/
+
+23
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/SinCos/Integrator with Wrapped State (Discrete or Continuous)/Discrete/Initial/Value
+/
+
+24
+F64
+1
+SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Positive I1/Gain1/Gain
+/
+
+25
+F64
+1
+SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Positive V1/Gain1/Gain
+/
+
+26
+F64
+1
+SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Gain2/Gain
+/
+
+27
+F64
+1
+SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Negative I2/Gain1/Gain
+/
+
+28
+F64
+1
+SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Negative V2/Gain1/Gain
+/
+
+29
+F64
+1
+SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Gain1/Gain
+/
+
+30
+F64
+1
+SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Zero I0/Gain1/Gain
+/
+
+31
+F64
+1
+SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Zero V0/Gain1/Gain
+/
+
+32
+F64
+1
+SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Gain3/Gain
+/
+
+33
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Positive I1/Gain1/Gain
+/
+
+34
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Positive V1/Gain1/Gain
+/
+
+35
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Gain2/Gain
+/
+
+36
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Negative I2/Gain1/Gain
+/
+
+37
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Negative V2/Gain1/Gain
+/
+
+38
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Gain1/Gain
+/
+
+39
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Zero I0/Gain1/Gain
+/
+
+40
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Zero V0/Gain1/Gain
+/
+
+41
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Gain3/Gain
+/
+
+42
+F64
+1
+SM_Master/timeout/Value
+/
+
+45
+F64
+1
+SM_Master/VSC_ITM_SFA/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Unit Delay/InitialCondition
+/
+
+74
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Current Control/Delay/InitialCondition
+/
+
+75
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/SRF_PLL/Constant2/Value
+/
+
+76
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/SRF_PLL/Integrator1/UpperSaturationLimit
+/
+
+77
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/SRF_PLL/Integrator1/LowerSaturationLimit
+/
+
+78
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Current Control/Inverse_Park_Transformation/Gain/Gain
+/
+
+79
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Current Control/Inverse_Park_Transformation/Constant3/Value
+/
+
+80
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Current Control/Inverse_Park_Transformation/Constant1/Value
+/
+
+81
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Current Control/Inverse_Park_Transformation/Gain1/Gain
+/
+
+82
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Current Control/Inverse_Park_Transformation/Constant4/Value
+/
+
+83
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Current Control/Inverse_Park_Transformation/Constant2/Value
+/
+
+84
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Current Control/Inverse_Park_Transformation/Gain2/Gain
+/
+
+85
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Saturation/UpperLimit
+/
+
+90
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Saturation/LowerLimit
+/
+
+91
+F64
+1
+SM_Master/VSC_ITM_SFA/PWM/Constant9/Value
+/
+
+92
+F64
+1
+SM_Master/VSC_ITM_SFA/PWM/Constant10/Value
+/
+
+93
+F64
+1
+SM_Master/VSC_ITM_SFA/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Not in ARTEMIS/Value
+/
+
+124
+F64
+1
+SM_Master/VSC_ITM_SFA/Phasor_to_Time_Domain_SFA/Deg-_Rad/Gain
+/
+
+125
+F64
+1
+SM_Master/VSC_ITM_SFA/Phasor_to_Time_Domain_SFA/Integrator with Wrapped State (Discrete or Continuous)/Discrete/Integrator/gainval
+/
+
+126
+F64
+1
+SM_Master/VSC_ITM_SFA/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Vf 1/Vf Devices _ Clamping Diodes/Value
+/
+
+127
+F64
+6
+SM_Master/VSC_ITM_SFA/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Vf 1/Vf Diodes/Value
+/
+
+128
+F64
+6
+SM_Master/VSC_ITM_SFA/Current Measurement3/do not delete this gain/Gain
+/
+
+133
+F64
+1
+SM_Master/VSC_ITM_SFA/Current Measurement4/do not delete this gain/Gain
+/
+
+134
+F64
+1
+SM_Master/VSC_ITM_SFA/Current Measurement5/do not delete this gain/Gain
+/
+
+135
+F64
+1
+SM_Master/VSC_ITM_SFA/Time_Domain_To_Phasor_SFA/Gain2/Gain
+/
+
+136
+F64
+9
+SM_Master/VSC_ITM_SFA/Time_Domain_To_Phasor_SFA/Integrator with Wrapped State (Discrete or Continuous)/Discrete/Integrator/gainval
+/
+
+137
+F64
+1
+SM_Master/VSC_ITM_SFA/Time_Domain_To_Phasor_SFA/Rad-_Deg/Gain
+/
+
+138
+F64
+1
+SM_Master/VSC_ITM_SFA/Delay/InitialCondition
+/
+
+139
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Meas_3_Wire/Gain6/Gain
+/
+
+140
+F64
+1
+SM_Master/VSC_ITM_SFA/Delay1/InitialCondition
+/
+
+141
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Meas_3_Wire/Gain7/Gain
+/
+
+142
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Meas_3_Wire/Gain8/Gain
+/
+
+143
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Meas_3_Wire/Gain10/Gain
+/
+
+144
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Meas_3_Wire/Gain9/Gain
+/
+
+145
+F64
+1
+SM_Master/Original Circuit/Delay2/InitialCondition
+/
+
+146
+F64
+1
+SM_Master/Original Circuit/Delay/InitialCondition
+/
+
+147
+F64
+1
+SM_Master/Original Circuit/Control/Meas_3_Wire/Gain6/Gain
+/
+
+148
+F64
+1
+SM_Master/Original Circuit/Delay1/InitialCondition
+/
+
+149
+F64
+1
+SM_Master/Original Circuit/Control/Meas_3_Wire/Gain7/Gain
+/
+
+150
+F64
+1
+SM_Master/Original Circuit/Control/Meas_3_Wire/Gain8/Gain
+/
+
+151
+F64
+1
+SM_Master/Original Circuit/Control/Meas_3_Wire/Gain10/Gain
+/
+
+152
+F64
+1
+SM_Master/Original Circuit/Control/Meas_3_Wire/Gain9/Gain
+/
+
+153
+F64
+1
+SM_Master/epoch_time_sec/In1/Value
+OpInput
+epoch_time_sec
+154
+F64
+1
+SM_Master/epoch_time_nsec/In1/Value
+OpInput
+epoch_time_nsec
+155
+F64
+1
+SM_Master/ptp_sync_state/In1/Value
+OpInput
+ptp_sync_state
+156
+F64
+1
+SM_Master/ptp_slave_offset/In1/Value
+OpInput
+ptp_slave_offset
+157
+F64
+1
+SM_Master/sync_accuracy/In1/Value
+OpInput
+sync_accuracy
+158
+F64
+1
+SM_Master/Delay4/InitialCondition
+/
+
+161
+F64
+1
+SM_Master/Delay5/InitialCondition
+/
+
+186
+F64
+1
+SM_Master/Delay6/InitialCondition
+/
+
+211
+F64
+1
+SM_Master/Delay7/InitialCondition
+/
+
+236
+F64
+1
+SM_Master/Delay8/InitialCondition
+/
+
+261
+F64
+1
+SM_Master/Original Circuit/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/0 4/Value
+/
+
+286
+F64
+1
+SM_Master/Original Circuit/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Unit Delay/InitialCondition
+/
+
+287
+F64
+1
+SM_Master/Original Circuit/Control/Current Control/Delay/InitialCondition
+/
+
+288
+F64
+1
+SM_Master/Original Circuit/Control/SRF_PLL/Constant2/Value
+/
+
+289
+F64
+1
+SM_Master/Original Circuit/Control/SRF_PLL/Integrator2/UpperSaturationLimit
+/
+
+290
+F64
+1
+SM_Master/Original Circuit/Control/SRF_PLL/Integrator2/LowerSaturationLimit
+/
+
+291
+F64
+1
+SM_Master/Original Circuit/Control/Current Control/Inverse_Park_Transformation/Gain/Gain
+/
+
+292
+F64
+1
+SM_Master/Original Circuit/Control/Current Control/Inverse_Park_Transformation/Constant3/Value
+/
+
+293
+F64
+1
+SM_Master/Original Circuit/Control/Current Control/Inverse_Park_Transformation/Constant1/Value
+/
+
+294
+F64
+1
+SM_Master/Original Circuit/Control/Current Control/Inverse_Park_Transformation/Gain1/Gain
+/
+
+295
+F64
+1
+SM_Master/Original Circuit/Control/Current Control/Inverse_Park_Transformation/Constant4/Value
+/
+
+296
+F64
+1
+SM_Master/Original Circuit/Control/Current Control/Inverse_Park_Transformation/Constant2/Value
+/
+
+297
+F64
+1
+SM_Master/Original Circuit/Control/Current Control/Inverse_Park_Transformation/Gain2/Gain
+/
+
+298
+F64
+1
+SM_Master/Original Circuit/Control/Saturation/UpperLimit
+/
+
+299
+F64
+1
+SM_Master/Original Circuit/Control/Saturation/LowerLimit
+/
+
+300
+F64
+1
+SM_Master/Original Circuit/PWM/Constant9/Value
+/
+
+301
+F64
+1
+SM_Master/Original Circuit/PWM/Constant10/Value
+/
+
+302
+F64
+1
+SM_Master/Original Circuit/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Not in ARTEMIS/Value
+/
+
+333
+F64
+1
+SM_Master/Original Circuit/Three-Phase Source/Model/Sine Wave A/Amplitude
+/
+
+334
+F64
+1
+SM_Master/Original Circuit/Three-Phase Source/Model/Sine Wave A/Bias
+/
+
+335
+F64
+1
+SM_Master/Original Circuit/Three-Phase Source/Model/Sine Wave A/SinH
+/
+
+336
+F64
+1
+SM_Master/Original Circuit/Three-Phase Source/Model/Sine Wave A/CosH
+/
+
+337
+F64
+1
+SM_Master/Original Circuit/Three-Phase Source/Model/Sine Wave A/SinPhi
+/
+
+338
+F64
+1
+SM_Master/Original Circuit/Three-Phase Source/Model/Sine Wave A/CosPhi
+/
+
+339
+F64
+1
+SM_Master/Original Circuit/Three-Phase Source/Model/Sine Wave B/Amplitude
+/
+
+340
+F64
+1
+SM_Master/Original Circuit/Three-Phase Source/Model/Sine Wave B/Bias
+/
+
+341
+F64
+1
+SM_Master/Original Circuit/Three-Phase Source/Model/Sine Wave B/SinH
+/
+
+342
+F64
+1
+SM_Master/Original Circuit/Three-Phase Source/Model/Sine Wave B/CosH
+/
+
+343
+F64
+1
+SM_Master/Original Circuit/Three-Phase Source/Model/Sine Wave B/SinPhi
+/
+
+344
+F64
+1
+SM_Master/Original Circuit/Three-Phase Source/Model/Sine Wave B/CosPhi
+/
+
+345
+F64
+1
+SM_Master/Original Circuit/Three-Phase Source/Model/Sine Wave C/Amplitude
+/
+
+346
+F64
+1
+SM_Master/Original Circuit/Three-Phase Source/Model/Sine Wave C/Bias
+/
+
+347
+F64
+1
+SM_Master/Original Circuit/Three-Phase Source/Model/Sine Wave C/SinH
+/
+
+348
+F64
+1
+SM_Master/Original Circuit/Three-Phase Source/Model/Sine Wave C/CosH
+/
+
+349
+F64
+1
+SM_Master/Original Circuit/Three-Phase Source/Model/Sine Wave C/SinPhi
+/
+
+350
+F64
+1
+SM_Master/Original Circuit/Three-Phase Source/Model/Sine Wave C/CosPhi
+/
+
+351
+F64
+1
+SM_Master/Original Circuit/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Vf 1/Vf Devices _ Clamping Diodes/Value
+/
+
+352
+F64
+6
+SM_Master/Original Circuit/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Vf 1/Vf Diodes/Value
+/
+
+353
+F64
+6
+SM_Master/Original Circuit/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/1__Ron/Gain
+/
+
+358
+F64
+1
+SM_Master/Original Circuit/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Switch/Threshold
+/
+
+359
+F64
+1
+SM_Master/Original Circuit/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Saturation/UpperLimit
+/
+
+360
+F64
+1
+SM_Master/Original Circuit/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Saturation/LowerLimit
+/
+
+361
+F64
+1
+SM_Master/Original Circuit/ARTEMiS SSN IVIC/iA/do not delete this gain/Gain
+/
+
+362
+F64
+1
+SM_Master/Original Circuit/ARTEMiS SSN IVIC/iB/do not delete this gain/Gain
+/
+
+363
+F64
+1
+SM_Master/Original Circuit/ARTEMiS SSN IVIC/iC/do not delete this gain/Gain
+/
+
+364
+F64
+1
+SM_Master/Original Circuit/Control/Park_Transformation/Delay/InitialCondition
+/
+
+365
+F64
+1
+SM_Master/Original Circuit/Control/Park_Transformation1/Delay/InitialCondition
+/
+
+366
+F64
+1
+SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Sequence/Value
+/
+
+367
+F64
+1
+SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Phase-A V/Integrator/InitialCondition
+/
+
+368
+F64
+1
+SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Phase-A V/Transport Delay/InitialOutput
+/
+
+369
+F64
+1
+SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Phase-B V/Integrator/InitialCondition
+/
+
+370
+F64
+1
+SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Phase-B V/Transport Delay/InitialOutput
+/
+
+371
+F64
+1
+SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Phase-C V/Integrator/InitialCondition
+/
+
+372
+F64
+1
+SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Phase-C V/Transport Delay/InitialOutput
+/
+
+373
+F64
+1
+SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Phase-A I/Integrator/InitialCondition
+/
+
+374
+F64
+1
+SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Phase-A I/Transport Delay/InitialOutput
+/
+
+375
+F64
+1
+SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Phase-B I/Integrator/InitialCondition
+/
+
+376
+F64
+1
+SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Phase-B I/Transport Delay/InitialOutput
+/
+
+377
+F64
+1
+SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Phase-C I/Integrator/InitialCondition
+/
+
+378
+F64
+1
+SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Phase-C I/Transport Delay/InitialOutput
+/
+
+379
+F64
+1
+SM_Master/Original Circuit/Control/Current Control/Discrete-Time Integrator/gainval
+/
+
+380
+F64
+1
+SM_Master/Original Circuit/Control/Current Control/Discrete-Time Integrator/InitialCondition
+/
+
+381
+F64
+1
+SM_Master/Original Circuit/Control/Current Control/Discrete-Time Integrator1/gainval
+/
+
+382
+F64
+1
+SM_Master/Original Circuit/Control/Current Control/Discrete-Time Integrator1/InitialCondition
+/
+
+383
+F64
+1
+SM_Master/Original Circuit/Control/Power Control/Gain1/Gain
+/
+
+384
+F64
+1
+SM_Master/Original Circuit/Control/Power Control/Switch/Threshold
+/
+
+385
+F64
+1
+SM_Master/Original Circuit/Control/Power Control/Gain/Gain
+/
+
+386
+F64
+1
+SM_Master/Original Circuit/Control/Power Control/Gain3/Gain
+/
+
+387
+F64
+1
+SM_Master/Original Circuit/Control/Power Control/Gain2/Gain
+/
+
+388
+F64
+1
+SM_Master/Original Circuit/Control/Park_Transformation/Constant/Value
+/
+
+389
+F64
+1
+SM_Master/Original Circuit/Control/Park_Transformation/Constant1/Value
+/
+
+390
+F64
+1
+SM_Master/Original Circuit/Control/Park_Transformation/Constant2/Value
+/
+
+391
+F64
+1
+SM_Master/Original Circuit/Control/Park_Transformation/Constant3/Value
+/
+
+392
+F64
+1
+SM_Master/Original Circuit/Control/Park_Transformation/Gain/Gain
+/
+
+393
+F64
+1
+SM_Master/Original Circuit/Control/Park_Transformation/Gain1/Gain
+/
+
+394
+F64
+1
+SM_Master/Original Circuit/Control/Park_Transformation1/Constant/Value
+/
+
+395
+F64
+1
+SM_Master/Original Circuit/Control/Park_Transformation1/Constant1/Value
+/
+
+396
+F64
+1
+SM_Master/Original Circuit/Control/Park_Transformation1/Constant2/Value
+/
+
+397
+F64
+1
+SM_Master/Original Circuit/Control/Park_Transformation1/Constant3/Value
+/
+
+398
+F64
+1
+SM_Master/Original Circuit/Control/Park_Transformation1/Gain/Gain
+/
+
+399
+F64
+1
+SM_Master/Original Circuit/Control/Park_Transformation1/Gain1/Gain
+/
+
+400
+F64
+1
+SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/SinCos/Integrator with Wrapped State (Discrete or Continuous)/Continuous/Integrator/WrappedStateUpperValue
+/
+
+401
+F64
+1
+SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/SinCos/Integrator with Wrapped State (Discrete or Continuous)/Continuous/Integrator/WrappedStateLowerValue
+/
+
+402
+F64
+1
+SM_Master/Original Circuit/Control/SRF_PLL/Integrator/InitialCondition
+/
+
+403
+F64
+1
+SM_Master/Original Circuit/Control/SRF_PLL/Gain5/Gain
+/
+
+404
+F64
+1
+SM_Master/Original Circuit/Control/SRF_PLL/Gain6/Gain
+/
+
+405
+F64
+1
+SM_Master/Original Circuit/Control/SRF_PLL/Gain4/Gain
+/
+
+406
+F64
+1
+SM_Master/Original Circuit/Control/SRF_PLL/Gain2/Gain
+/
+
+407
+F64
+1
+SM_Master/Original Circuit/Control/SRF_PLL/Gain3/Gain
+/
+
+408
+F64
+1
+SM_Master/Original Circuit/Control/SRF_PLL/Gain1/Gain
+/
+
+409
+F64
+1
+SM_Master/Original Circuit/Control/SRF_PLL/Gain7/Gain
+/
+
+410
+F64
+1
+SM_Master/Original Circuit/Control/SRF_PLL/Constant/Value
+/
+
+411
+F64
+1
+SM_Master/Original Circuit/Current Measurement/do not delete this gain/Gain
+/
+
+412
+F64
+1
+SM_Master/Original Circuit/Current Measurement1/do not delete this gain/Gain
+/
+
+413
+F64
+1
+SM_Master/Original Circuit/Current Measurement2/do not delete this gain/Gain
+/
+
+414
+F64
+1
+SM_Master/Original Circuit/Voltage Measurement1/do not delete this gain/Gain
+/
+
+415
+F64
+1
+SM_Master/Original Circuit/Voltage Measurement2/do not delete this gain/Gain
+/
+
+416
+F64
+1
+SM_Master/Original Circuit/Current Measurement6/do not delete this gain/Gain
+/
+
+417
+F64
+1
+SM_Master/VSC_ITM_SFA/Time_Domain_To_Phasor_SFA/Gain3/Gain
+/
+
+418
+F64
+1
+SM_Master/VSC_ITM_SFA/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/0 4/Value
+/
+
+419
+F64
+1
+SM_Master/VSC_ITM_SFA/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/1__Ron/Gain
+/
+
+420
+F64
+1
+SM_Master/VSC_ITM_SFA/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Switch/Threshold
+/
+
+421
+F64
+1
+SM_Master/VSC_ITM_SFA/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Saturation/UpperLimit
+/
+
+422
+F64
+1
+SM_Master/VSC_ITM_SFA/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Saturation/LowerLimit
+/
+
+423
+F64
+1
+SM_Master/VSC_ITM_SFA/ARTEMiS SSN IVIC/iA/do not delete this gain/Gain
+/
+
+424
+F64
+1
+SM_Master/VSC_ITM_SFA/ARTEMiS SSN IVIC/iB/do not delete this gain/Gain
+/
+
+425
+F64
+1
+SM_Master/VSC_ITM_SFA/ARTEMiS SSN IVIC/iC/do not delete this gain/Gain
+/
+
+426
+F64
+1
+SM_Master/VSC_ITM_SFA/Delay2/InitialCondition
+/
+
+427
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Park_Transformation/Delay/InitialCondition
+/
+
+428
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Current Control/Discrete-Time Integrator/gainval
+/
+
+429
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Current Control/Discrete-Time Integrator/InitialCondition
+/
+
+430
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Current Control/Discrete-Time Integrator1/gainval
+/
+
+431
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Current Control/Discrete-Time Integrator1/InitialCondition
+/
+
+432
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Park_Transformation1/Delay/InitialCondition
+/
+
+433
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Control/Gain1/Gain
+/
+
+434
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Control/Switch/Threshold
+/
+
+435
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Control/Gain/Gain
+/
+
+436
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Control/Gain3/Gain
+/
+
+437
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Control/Gain2/Gain
+/
+
+438
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Park_Transformation/Constant/Value
+/
+
+439
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Park_Transformation/Constant1/Value
+/
+
+440
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Park_Transformation/Constant2/Value
+/
+
+441
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Park_Transformation/Constant3/Value
+/
+
+442
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Park_Transformation/Gain/Gain
+/
+
+443
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Park_Transformation/Gain1/Gain
+/
+
+444
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Park_Transformation1/Constant/Value
+/
+
+445
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Park_Transformation1/Constant1/Value
+/
+
+446
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Park_Transformation1/Constant2/Value
+/
+
+447
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Park_Transformation1/Constant3/Value
+/
+
+448
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Park_Transformation1/Gain/Gain
+/
+
+449
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Park_Transformation1/Gain1/Gain
+/
+
+450
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Sequence/Value
+/
+
+451
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/SinCos/Integrator with Wrapped State (Discrete or Continuous)/Discrete/Integrator/gainval
+/
+
+452
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Phase-A V/Integrator/gainval
+/
+
+453
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Phase-A V/Integrator/InitialCondition
+/
+
+454
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Phase-A V/Corrected discrete transport delay/Unit Delay1/InitialCondition
+/
+
+455
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Phase-A V/Corrected discrete transport delay/Unit Delay2/InitialCondition
+/
+
+456
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Phase-A V/Corrected discrete transport delay/Delay/InitialCondition
+/
+
+457
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Phase-A V/Corrected discrete transport delay/Gain/Gain
+/
+
+458
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Phase-B V/Integrator/gainval
+/
+
+459
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Phase-B V/Integrator/InitialCondition
+/
+
+460
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Phase-B V/Corrected discrete transport delay/Unit Delay1/InitialCondition
+/
+
+461
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Phase-B V/Corrected discrete transport delay/Unit Delay2/InitialCondition
+/
+
+462
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Phase-B V/Corrected discrete transport delay/Delay/InitialCondition
+/
+
+463
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Phase-B V/Corrected discrete transport delay/Gain/Gain
+/
+
+464
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Phase-C V/Integrator/gainval
+/
+
+465
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Phase-C V/Integrator/InitialCondition
+/
+
+466
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Phase-C V/Corrected discrete transport delay/Unit Delay1/InitialCondition
+/
+
+467
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Phase-C V/Corrected discrete transport delay/Unit Delay2/InitialCondition
+/
+
+468
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Phase-C V/Corrected discrete transport delay/Delay/InitialCondition
+/
+
+469
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Phase-C V/Corrected discrete transport delay/Gain/Gain
+/
+
+470
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Phase-A I/Integrator/gainval
+/
+
+471
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Phase-A I/Integrator/InitialCondition
+/
+
+472
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Phase-A I/Corrected discrete transport delay/Unit Delay1/InitialCondition
+/
+
+473
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Phase-A I/Corrected discrete transport delay/Unit Delay2/InitialCondition
+/
+
+474
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Phase-A I/Corrected discrete transport delay/Delay/InitialCondition
+/
+
+475
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Phase-A I/Corrected discrete transport delay/Gain/Gain
+/
+
+476
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Phase-B I/Integrator/gainval
+/
+
+477
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Phase-B I/Integrator/InitialCondition
+/
+
+478
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Phase-B I/Corrected discrete transport delay/Unit Delay1/InitialCondition
+/
+
+479
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Phase-B I/Corrected discrete transport delay/Unit Delay2/InitialCondition
+/
+
+480
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Phase-B I/Corrected discrete transport delay/Delay/InitialCondition
+/
+
+481
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Phase-B I/Corrected discrete transport delay/Gain/Gain
+/
+
+482
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Phase-C I/Integrator/gainval
+/
+
+483
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Phase-C I/Integrator/InitialCondition
+/
+
+484
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Phase-C I/Corrected discrete transport delay/Unit Delay1/InitialCondition
+/
+
+485
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Phase-C I/Corrected discrete transport delay/Unit Delay2/InitialCondition
+/
+
+486
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Phase-C I/Corrected discrete transport delay/Delay/InitialCondition
+/
+
+487
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Phase-C I/Corrected discrete transport delay/Gain/Gain
+/
+
+488
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/SRF_PLL/Gain5/Gain
+/
+
+489
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/SRF_PLL/Gain6/Gain
+/
+
+490
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/SRF_PLL/Gain4/Gain
+/
+
+491
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/SRF_PLL/Gain2/Gain
+/
+
+492
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/SRF_PLL/Gain3/Gain
+/
+
+493
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/SRF_PLL/Gain1/Gain
+/
+
+494
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/SRF_PLL/Constant/Value
+/
+
+495
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/SRF_PLL/Gain7/Gain
+/
+
+496
+F64
+1
+SM_Master/VSC_ITM_SFA/Control/SRF_PLL/Integrator/InitialCondition
+/
+
+497
+F64
+1
+SM_Master/VSC_ITM_SFA/Current Measurement/do not delete this gain/Gain
+/
+
+498
+F64
+1
+SM_Master/VSC_ITM_SFA/Current Measurement1/do not delete this gain/Gain
+/
+
+499
+F64
+1
+SM_Master/VSC_ITM_SFA/Current Measurement2/do not delete this gain/Gain
+/
+
+500
+F64
+1
+SM_Master/VSC_ITM_SFA/Voltage Measurement1/do not delete this gain/Gain
+/
+
+501
+F64
+1
+SM_Master/VSC_ITM_SFA/Voltage Measurement2/do not delete this gain/Gain
+/
+
+502
+F64
+1
+SM_Master/VSC_ITM_SFA/Phasor_to_Time_Domain_SFA/Gain3/Gain
+/
+
+503
+F64
+1
+SM_Master/VSC_ITM_SFA/Current Measurement6/do not delete this gain/Gain
+/
+
+504
+F64
+1
+SM_Master/data ready 2.5 kHz/Amplitude
+/
+
+505
+F64
+1
+SM_Master/data ready 2.5 kHz/Period
+/
+
+506
+F64
+1
+SM_Master/data ready 2.5 kHz/PulseWidth
+/
+
+507
+F64
+1
+SM_Master/data ready 2.5 kHz/PhaseDelay
+/
+
+508
+F64
+1
+SM_Master/VSC_ITM_SFA/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Tail/itail/InitialOutput
+/
+
+579
+F64
+1
+SM_Master/VSC_ITM_SFA/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Tail/1/Value
+/
+
+580
+F64
+1
+SM_Master/VSC_ITM_SFA/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Tail/2/Value
+/
+
+581
+F64
+1
+SM_Master/VSC_ITM_SFA/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Tail/Discrete-Time Integrator/gainval
+/
+
+582
+F64
+1
+SM_Master/VSC_ITM_SFA/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Tail/Discrete-Time Integrator/InitialCondition
+/
+
+583
+F64
+1
+SM_Master/VSC_ITM_SFA/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Tail/y=f(t)/Constant/Value
+/
+
+584
+F64
+1
+SM_Master/VSC_ITM_SFA/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Tail/y=f(t)/Saturation1/UpperLimit
+/
+
+585
+F64
+1
+SM_Master/VSC_ITM_SFA/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Tail/y=f(t)/Saturation1/LowerLimit
+/
+
+586
+F64
+1
+SM_Master/VSC_ITM_SFA/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Tail/y=f(t)/Saturation2/UpperLimit
+/
+
+587
+F64
+1
+SM_Master/VSC_ITM_SFA/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Tail/y=f(t)/Saturation2/LowerLimit
+/
+
+588
+F64
+1
+SM_Master/VSC_ITM_SFA/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Tail/Unit Delay/InitialCondition
+/
+
+589
+F64
+1
+SM_Master/VSC_ITM_SFA/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Tail/Switch/Threshold
+/
+
+590
+F64
+1
+SM_Master/Original Circuit/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Tail/itail/InitialOutput
+/
+
+591
+F64
+1
+SM_Master/Original Circuit/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Tail/1/Value
+/
+
+592
+F64
+1
+SM_Master/Original Circuit/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Tail/2/Value
+/
+
+593
+F64
+1
+SM_Master/Original Circuit/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Tail/Discrete-Time Integrator/gainval
+/
+
+594
+F64
+1
+SM_Master/Original Circuit/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Tail/Discrete-Time Integrator/InitialCondition
+/
+
+595
+F64
+1
+SM_Master/Original Circuit/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Tail/y=f(t)/Constant/Value
+/
+
+596
+F64
+1
+SM_Master/Original Circuit/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Tail/y=f(t)/Saturation1/UpperLimit
+/
+
+597
+F64
+1
+SM_Master/Original Circuit/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Tail/y=f(t)/Saturation1/LowerLimit
+/
+
+598
+F64
+1
+SM_Master/Original Circuit/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Tail/y=f(t)/Saturation2/UpperLimit
+/
+
+599
+F64
+1
+SM_Master/Original Circuit/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Tail/y=f(t)/Saturation2/LowerLimit
+/
+
+600
+F64
+1
+SM_Master/Original Circuit/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Tail/Unit Delay/InitialCondition
+/
+
+601
+F64
+1
+SM_Master/Original Circuit/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Tail/Switch/Threshold
+/
+
+602
+F64
+1

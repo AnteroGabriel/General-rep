@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+    <General>
+        <att_name>Co-simulation_circuit_AsyncIP_eth2_Sim01</att_name>
+        <att_description>This is a project!</att_description>
+        <att_ip_address>146.164.78.193:25252</att_ip_address>
+        <att_hashcode>488D6247-3E48-4459-9CF3-BFB9B594881D</att_hashcode>
+        <att_autosave>ON</att_autosave>
+        <att_project_locked>0</att_project_locked>
+        <att_filename>C:\Users\Antero\OPAL-RT\RT-LABv2022.1_Workspace\Co-simulation_circuit_AsyncIP_eth2_Sim01\Co-simulation_circuit_AsyncIP_eth2_Sim01.llp</att_filename>
+    </General>
+    <Optionals>
+        <att_donotask_loadcfg_at_prjopen>0</att_donotask_loadcfg_at_prjopen>
+        <att_matlab_compile_outprocess>OFF</att_matlab_compile_outprocess>
+    </Optionals>
+    <Models>
+        <Model>
+            <Path>
+                <Relative>models/Basic_cosimulation_circuit/Basic_cosimulation_circuit.slx</Relative>
+                <Absolute>C:/Users/Antero/OPAL-RT/RT-LABv2022.1_Workspace/Co-simulation_circuit_AsyncIP_eth2_Sim01/models/Basic_cosimulation_circuit/Basic_cosimulation_circuit.slx</Absolute>
+                <UNC>C:/Users/Antero/OPAL-RT/RT-LABv2022.1_Workspace/Co-simulation_circuit_AsyncIP_eth2_Sim01/models/Basic_cosimulation_circuit/Basic_cosimulation_circuit.slx</UNC>
+            </Path>
+        </Model>
+    </Models>
+</Project>

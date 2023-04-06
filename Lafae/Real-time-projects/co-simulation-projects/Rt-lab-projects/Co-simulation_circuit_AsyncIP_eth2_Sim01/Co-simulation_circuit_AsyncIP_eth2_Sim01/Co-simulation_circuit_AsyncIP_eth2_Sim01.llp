@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+    <General>
+        <att_name>Co-simulation_circuit_AsyncIP_eth2_Sim01</att_name>
+        <att_description>This is a project!</att_description>
+        <att_ip_address>146.164.78.193:25255</att_ip_address>
+        <att_hashcode>65C9E50D-0C06-4665-9D5B-60777E10BC2D</att_hashcode>
+        <att_autosave>ON</att_autosave>
+        <att_project_locked>0</att_project_locked>
+        <att_filename>C:\Users\Antero\Documents\GitHub\General-rep\Lafae\Real-time-projects\co-simulation-projects\Rt-lab-projects\Co-simulation_circuit_AsyncIP_eth2_Sim01\Co-simulation_circuit_AsyncIP_eth2_Sim01\Co-simulation_circuit_AsyncIP_eth2_Sim01.llp</att_filename>
+    </General>
+    <Optionals>
+        <att_donotask_loadcfg_at_prjopen>0</att_donotask_loadcfg_at_prjopen>
+        <att_matlab_compile_outprocess>OFF</att_matlab_compile_outprocess>
+    </Optionals>
+    <Models>
+        <Model>
+            <Path>
+                <Relative>models/Basic_cosimulation_circuit/Basic_cosimulation_circuit.slx</Relative>
+                <Absolute>C:/Users/Antero/Documents/GitHub/General-rep/Lafae/Real-time-projects/co-simulation-projects/Rt-lab-projects/Co-simulation_circuit_AsyncIP_eth2_Sim01/Co-simulation_circuit_AsyncIP_eth2_Sim01/models/Basic_cosimulation_circuit/Basic_cosimulation_circuit.slx</Absolute>
+                <UNC>C:/Users/Antero/Documents/GitHub/General-rep/Lafae/Real-time-projects/co-simulation-projects/Rt-lab-projects/Co-simulation_circuit_AsyncIP_eth2_Sim01/Co-simulation_circuit_AsyncIP_eth2_Sim01/models/Basic_cosimulation_circuit/Basic_cosimulation_circuit.slx</UNC>
+            </Path>
+        </Model>
+    </Models>
+</Project>

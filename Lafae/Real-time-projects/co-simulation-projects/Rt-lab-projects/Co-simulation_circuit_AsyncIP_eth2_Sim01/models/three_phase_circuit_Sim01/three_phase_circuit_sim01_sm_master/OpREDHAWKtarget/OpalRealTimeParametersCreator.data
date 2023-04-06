@@ -1,0 +1,354 @@
+SM_master/Circuit_ITM_Source/Three-Phase Source/Model/Sine Wave A/Frequency
+/
+
+0
+F64
+1
+SM_master/Original_Circuit/Three-Phase Source1/Model/Sine Wave A/Frequency
+/
+
+1
+F64
+1
+SM_master/timeout/Value
+/
+
+4
+F64
+1
+SM_master/Circuit_ITM_Source/Three-Phase Source/Model/Sine Wave A/Amplitude
+/
+
+33
+F64
+1
+SM_master/Circuit_ITM_Source/Three-Phase Source/Model/Sine Wave A/Bias
+/
+
+34
+F64
+1
+SM_master/Circuit_ITM_Source/Three-Phase Source/Model/Sine Wave A/SinH
+/
+
+35
+F64
+1
+SM_master/Circuit_ITM_Source/Three-Phase Source/Model/Sine Wave A/CosH
+/
+
+36
+F64
+1
+SM_master/Circuit_ITM_Source/Three-Phase Source/Model/Sine Wave A/SinPhi
+/
+
+37
+F64
+1
+SM_master/Circuit_ITM_Source/Three-Phase Source/Model/Sine Wave A/CosPhi
+/
+
+38
+F64
+1
+SM_master/Circuit_ITM_Source/Three-Phase Source/Model/Sine Wave B/Amplitude
+/
+
+39
+F64
+1
+SM_master/Circuit_ITM_Source/Three-Phase Source/Model/Sine Wave B/Bias
+/
+
+40
+F64
+1
+SM_master/Circuit_ITM_Source/Three-Phase Source/Model/Sine Wave B/SinH
+/
+
+41
+F64
+1
+SM_master/Circuit_ITM_Source/Three-Phase Source/Model/Sine Wave B/CosH
+/
+
+42
+F64
+1
+SM_master/Circuit_ITM_Source/Three-Phase Source/Model/Sine Wave B/SinPhi
+/
+
+43
+F64
+1
+SM_master/Circuit_ITM_Source/Three-Phase Source/Model/Sine Wave B/CosPhi
+/
+
+44
+F64
+1
+SM_master/Circuit_ITM_Source/Three-Phase Source/Model/Sine Wave C/Amplitude
+/
+
+45
+F64
+1
+SM_master/Circuit_ITM_Source/Three-Phase Source/Model/Sine Wave C/Bias
+/
+
+46
+F64
+1
+SM_master/Circuit_ITM_Source/Three-Phase Source/Model/Sine Wave C/SinH
+/
+
+47
+F64
+1
+SM_master/Circuit_ITM_Source/Three-Phase Source/Model/Sine Wave C/CosH
+/
+
+48
+F64
+1
+SM_master/Circuit_ITM_Source/Three-Phase Source/Model/Sine Wave C/SinPhi
+/
+
+49
+F64
+1
+SM_master/Circuit_ITM_Source/Three-Phase Source/Model/Sine Wave C/CosPhi
+/
+
+50
+F64
+1
+SM_master/Circuit_ITM_Source/Three-Phase V-I Measurement/Model/U A:/do not delete this gain/Gain
+/
+
+52
+F64
+1
+SM_master/Circuit_ITM_Source/Three-Phase V-I Measurement/Model/U B:/do not delete this gain/Gain
+/
+
+53
+F64
+1
+SM_master/Circuit_ITM_Source/Three-Phase V-I Measurement/Model/U C:/do not delete this gain/Gain
+/
+
+54
+F64
+1
+SM_master/Circuit_ITM_Source/Three-Phase V-I Measurement/Kv1/Gain
+/
+
+55
+F64
+1
+SM_master/Original_Circuit/Three-Phase Source1/Model/Sine Wave A/Amplitude
+/
+
+56
+F64
+1
+SM_master/Original_Circuit/Three-Phase Source1/Model/Sine Wave A/Bias
+/
+
+57
+F64
+1
+SM_master/Original_Circuit/Three-Phase Source1/Model/Sine Wave A/SinH
+/
+
+58
+F64
+1
+SM_master/Original_Circuit/Three-Phase Source1/Model/Sine Wave A/CosH
+/
+
+59
+F64
+1
+SM_master/Original_Circuit/Three-Phase Source1/Model/Sine Wave A/SinPhi
+/
+
+60
+F64
+1
+SM_master/Original_Circuit/Three-Phase Source1/Model/Sine Wave A/CosPhi
+/
+
+61
+F64
+1
+SM_master/Original_Circuit/Three-Phase Source1/Model/Sine Wave B/Amplitude
+/
+
+62
+F64
+1
+SM_master/Original_Circuit/Three-Phase Source1/Model/Sine Wave B/Bias
+/
+
+63
+F64
+1
+SM_master/Original_Circuit/Three-Phase Source1/Model/Sine Wave B/SinH
+/
+
+64
+F64
+1
+SM_master/Original_Circuit/Three-Phase Source1/Model/Sine Wave B/CosH
+/
+
+65
+F64
+1
+SM_master/Original_Circuit/Three-Phase Source1/Model/Sine Wave B/SinPhi
+/
+
+66
+F64
+1
+SM_master/Original_Circuit/Three-Phase Source1/Model/Sine Wave B/CosPhi
+/
+
+67
+F64
+1
+SM_master/Original_Circuit/Three-Phase Source1/Model/Sine Wave C/Amplitude
+/
+
+68
+F64
+1
+SM_master/Original_Circuit/Three-Phase Source1/Model/Sine Wave C/Bias
+/
+
+69
+F64
+1
+SM_master/Original_Circuit/Three-Phase Source1/Model/Sine Wave C/SinH
+/
+
+70
+F64
+1
+SM_master/Original_Circuit/Three-Phase Source1/Model/Sine Wave C/CosH
+/
+
+71
+F64
+1
+SM_master/Original_Circuit/Three-Phase Source1/Model/Sine Wave C/SinPhi
+/
+
+72
+F64
+1
+SM_master/Original_Circuit/Three-Phase Source1/Model/Sine Wave C/CosPhi
+/
+
+73
+F64
+1
+SM_master/Original_Circuit/Three-Phase V-I Measurement1/Model/U A:/do not delete this gain/Gain
+/
+
+79
+F64
+1
+SM_master/Original_Circuit/Three-Phase V-I Measurement1/Model/U B:/do not delete this gain/Gain
+/
+
+80
+F64
+1
+SM_master/Original_Circuit/Three-Phase V-I Measurement1/Model/U C:/do not delete this gain/Gain
+/
+
+81
+F64
+1
+SM_master/Original_Circuit/Three-Phase V-I Measurement1/Kv1/Gain
+/
+
+82
+F64
+1
+SM_master/Original_Circuit/Three-Phase V-I Measurement1/Model/I A:/do not delete this gain/Gain
+/
+
+83
+F64
+1
+SM_master/Original_Circuit/Three-Phase V-I Measurement1/Model/I B:/do not delete this gain/Gain
+/
+
+84
+F64
+1
+SM_master/Original_Circuit/Three-Phase V-I Measurement1/Model/I C:/do not delete this gain/Gain
+/
+
+85
+F64
+1
+SM_master/Original_Circuit/Three-Phase V-I Measurement1/Kv/Gain
+/
+
+86
+F64
+1
+SM_master/Circuit_ITM_Source/Three-Phase V-I Measurement/Model/I A:/do not delete this gain/Gain
+/
+
+89
+F64
+1
+SM_master/Circuit_ITM_Source/Three-Phase V-I Measurement/Model/I B:/do not delete this gain/Gain
+/
+
+90
+F64
+1
+SM_master/Circuit_ITM_Source/Three-Phase V-I Measurement/Model/I C:/do not delete this gain/Gain
+/
+
+91
+F64
+1
+SM_master/Circuit_ITM_Source/Three-Phase V-I Measurement/Kv/Gain
+/
+
+92
+F64
+1
+SM_master/data ready 2.5 kHz/Amplitude
+/
+
+93
+F64
+1
+SM_master/data ready 2.5 kHz/Period
+/
+
+94
+F64
+1
+SM_master/data ready 2.5 kHz/PulseWidth
+/
+
+95
+F64
+1
+SM_master/data ready 2.5 kHz/PhaseDelay
+/
+
+96
+F64
+1

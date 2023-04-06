@@ -1,0 +1,552 @@
+[      0.000 ]          OpalRtIf.c           : DATA MEM: allocated 1287182 bytes for system client
+[      0.046 ]          OpalRtMain.c         : model basic_cosimulation_c_1_sm_master assigned to logical cpu 1
+[      0.046 ]          OpalRtMain.c         : Line 7645
+[      0.276 ]          OpalRtMain.c         : Calculated cpu speed = 3199 MHz
+[      0.276 ]          OpalRtMain.c         : Model 'basic_cosimulation_c_1_sm_master' compiled in RELEASE mode.
+[      0.276 ]          OpalRtMain.c         : 16 CPUs active on this Computer
+[      0.287 ]          OpalRtMain.c         : OS version: Red Hat 5.2 (2.6.29.6-opalrt-6.2.1)
+[      0.287 ]          OpalRtMain.c         : libOpalR2021B.a : v2022.1.0.405 (build = undefined)
+[      0.287 ]          OpalRtMain.c         : Line 838
+[      0.287 ]          OpalRtMain.c         : Monitoring is enabled
+[      0.287 ]          MonLogger.c          : Registering internal probes ...
+[      0.287 ]          MonLogger.c          : id  0 given to event "Sync Handler Jitter"
+[      0.287 ]          MonLogger.c          : id  1 given to event "Synchronized IOs"
+[      0.287 ]          MonLogger.c          : id  2 given to event "Status Update"
+[      0.287 ]          MonLogger.c          : id  3 given to event "Data Acquisition"
+[      0.287 ]          MonLogger.c          : id  4 given to event "New Data Acquisition"
+[      0.287 ]          MonLogger.c          : id  5 given to event "Signals Change"
+[      0.287 ]          MonLogger.c          : id  6 given to event "User Blobs"
+[      0.287 ]          MonLogger.c          : id  7 given to event "Send Status"
+[      0.287 ]          MonLogger.c          : id  8 given to event "Multi-Receive"
+[      0.287 ]          MonLogger.c          : id  9 given to event "Handle target requests"
+[      0.287 ]          MonLogger.c          : id 10 given to event "Handle host requests"
+[      0.287 ]          MonLogger.c          : id 11 given to event "Pre-execution computation time"
+[      0.287 ]          MonLogger.c          : id 12 given to event "Major computation time"
+[      0.287 ]          MonLogger.c          : id 13 given to event "Minor computation time"
+[      0.287 ]          MonLogger.c          : id 14 given to event "Post-execution computation time"
+[      0.287 ]          MonLogger.c          : id 15 given to event "Execution Cycle"
+[      0.287 ]          MonLogger.c          : id 16 given to event "Total Step Size"
+[      0.287 ]          MonLogger.c          : id 17 given to event "Idle wait for clock"
+[      0.287 ]          MonLogger.c          : id 18 given to event "Idle wait for comm"
+[      0.287 ]          MonLogger.c          : id 19 given to event "Idle wait for io"
+[      0.287 ]          MonLogger.c          : id 20 given to event "Total idle"
+[      0.287 ]          MonLogger.c          : id 21 given to event "Number of Overruns"
+[      0.287 ]          MonLogger.c          : id 22 given to event "Update LV panels"
+[      0.287 ]          MonLogger.c          : Done registering 23 internal probes.
+[      0.287 ]          OpalSync.c           : Monitoring Controller initialization, step 1 done
+[      0.287 ]          HostRequest.c        : Requests from host will be received from thread
+[      0.287 ]          OpalHostRecvIf.c     : Recv Thread started
+[      0.287 ]          TargetRequest.c      : Requests to host will be sent from thread
+[      0.287 ]          TargetRequest.c      : Requests to file will be sent from thread
+[      0.288 ]          OpalHostSendIf.c     : Send Thread started
+[      0.290 ]          OpalPrint.c          : Sending file name notification request for system control (cmd 30)
+[      0.290 ] WARNING: OpalTarget.c         : OPALRT Shared Memory unlocked (post)
+[      0.292 ]          OpalTarget.c         : Sub-systems added at position 0.
+[      0.292 ]          OpalRtMain.c         : OpalInit: OPALRT shared memory found and opened
+[      0.555 ]          OpalHostRecvIf.c     : RECV: connection to host established
+[      0.594 ]          OpalPrint.c          : Sending path notification request for system control (cmd 29)
+[      0.594 ]          OpalHostSendIf.c     : SEND: connection to host established
+ [      0.049 ]            Using default NodeSessions limit.  Limit set to 1024.
+ [      0.049 ]             >>>> SessionRoot::initialize port 0
+ [      0.050 ]            Begin to register on OpalRoot
+ [      0.051 ]            Registered on OpalRoot, port 25255
+ [      0.053 ]            Loading services from "/usr/opalrt/common/bin/Services"
+ [      0.067 ]              Plugin "Parameters": services informations retrieved
+ [      0.072 ]              Plugin "DVP": services informations retrieved
+ [      0.082 ]              Plugin "MODBUS": services informations retrieved
+ [      0.092 ]              Plugin "IEC104": services informations retrieved
+ [      0.096 ]              Plugin "DriverIdentification": services informations retrieved
+ [      0.100 ]              Plugin "Pickering-41-752": services informations retrieved
+ [      0.107 ]              Plugin "Web": services informations retrieved
+ [      0.120 ]              Plugin "ePHASORSIM": services informations retrieved
+ [      0.131 ]              Plugin "SimulationSetup": services informations retrieved
+ [      0.141 ]              Plugin "RFM": services informations retrieved
+ [      0.145 ]              Plugin "HEI": services informations retrieved
+ [      0.158 ]              Plugin "DataAcquisition": services informations retrieved
+ [      0.165 ]              Plugin "Dummy": services informations retrieved
+ [      0.173 ]              Plugin "ARINC": services informations retrieved
+ [      0.174 ]            Root initialized: 146.164.78.85:25255/resources/root
+ [      0.174 ]            Service Web/Server found
+ [      0.174 ]            Initialization done
+ [      0.279 ]            Service DataAcquisition/DataAcquisition found
+[      0.800 ]          OpalInitLicense.c    : /usr/opalrt/license/opallicense.bin is loaded
+[      1.365 ]          OpalRtMain.c         : 
+[      1.365 ]          OpalRtMain.c         : ------- License info dump START -------
+[      1.365 ]          OpalRtMain.c         : #For support, do not hesitate to contact OPAL-RT Technologies through
+[      1.365 ]          OpalRtMain.c         : #our web site support section : http://www.opal-rt.com/contact-technical-support/
+[      1.365 ]          OpalRtMain.c         : #Company Name:COPPE/UFRJ
+[      1.365 ]          OpalRtMain.c         : #Name:UFRJ
+[      1.365 ]          OpalRtMain.c         : #Email:pcerazo@coppe.ufrj.br
+[      1.365 ]          OpalRtMain.c         : #Country:
+[      1.365 ]          OpalRtMain.c         : #Order Number:CC-181266
+[      1.365 ]          OpalRtMain.c         : #Target Number:OPT901364
+[      1.365 ]          OpalRtMain.c         : #Created by:Sergio Atayde
+[      1.365 ]          OpalRtMain.c         : #Ticket Reference:123456
+[      1.365 ]          OpalRtMain.c         : #Comment:SSD for RTLAB (linux) changed to SATA_Samsung_SSD_860S5GBNA0M900715M
+[      1.365 ]          OpalRtMain.c         : EXPIRATION=INFINITE
+[      1.365 ]          OpalRtMain.c         : END_OF_SUPPORT=02/04/2025
+[      1.365 ]          OpalRtMain.c         : TARGET_NUMBER=OPT901364
+[      1.365 ]          OpalRtMain.c         : LICENSE_NUMBER=202103729
+[      1.365 ]          OpalRtMain.c         : DP_C37_118_MASTER.value=true
+[      1.365 ]          OpalRtMain.c         : DP_C37_118_MASTER.version=2019.3
+[      1.365 ]          OpalRtMain.c         : DP_C37_118_MASTER.description=C37.118 master
+[      1.365 ]          OpalRtMain.c         : DP_C37_118_SLAVE.value=true
+[      1.365 ]          OpalRtMain.c         : DP_C37_118_SLAVE.version=2019.3
+[      1.365 ]          OpalRtMain.c         : DP_C37_118_SLAVE.description=C37.118 slave
+[      1.365 ]          OpalRtMain.c         : DP_IEC61850_GOOSE_PUB.value=true
+[      1.365 ]          OpalRtMain.c         : DP_IEC61850_GOOSE_PUB.version=2019.3
+[      1.365 ]          OpalRtMain.c         : DP_IEC61850_GOOSE_PUB.description=IEC 61850 GOOSE publishing
+[      1.365 ]          OpalRtMain.c         : DP_IEC61850_GOOSE_SUB.value=true
+[      1.365 ]          OpalRtMain.c         : DP_IEC61850_GOOSE_SUB.version=2019.3
+[      1.365 ]          OpalRtMain.c         : DP_IEC61850_GOOSE_SUB.description=IEC 61850 GOOSE subscribing
+[      1.365 ]          OpalRtMain.c         : DP_IEC61850_SAMPLED_VALUES_PUB.value=true
+[      1.365 ]          OpalRtMain.c         : DP_IEC61850_SAMPLED_VALUES_PUB.version=2019.3
+[      1.365 ]          OpalRtMain.c         : DP_IEC61850_SAMPLED_VALUES_PUB.description=IEC 61850 Sampled Values publishing
+[      1.365 ]          OpalRtMain.c         : DP_IEC61850_SAMPLED_VALUES_SUB.value=true
+[      1.365 ]          OpalRtMain.c         : DP_IEC61850_SAMPLED_VALUES_SUB.version=2019.3
+[      1.365 ]          OpalRtMain.c         : DP_IEC61850_SAMPLED_VALUES_SUB.description=IEC 61850 Sampled Values subscribing
+[      1.365 ]          OpalRtMain.c         : DP_MODBUS_MASTER.value=true
+[      1.365 ]          OpalRtMain.c         : DP_MODBUS_MASTER.version=2019.3
+[      1.365 ]          OpalRtMain.c         : DP_MODBUS_MASTER.description=Modbus master
+[      1.365 ]          OpalRtMain.c         : DP_MODBUS_SLAVE.value=true
+[      1.365 ]          OpalRtMain.c         : DP_MODBUS_SLAVE.version=2019.3
+[      1.365 ]          OpalRtMain.c         : DP_MODBUS_SLAVE.description=Modbus slave
+[      1.365 ]          OpalRtMain.c         : DP_TOTAL_NUMBER.value=300
+[      1.365 ]          OpalRtMain.c         : DP_TOTAL_NUMBER.version=2019.3
+[      1.365 ]          OpalRtMain.c         : DP_TOTAL_NUMBER.description=Activated I/O data points for Ethernet-based communication protocols
+[      1.365 ]          OpalRtMain.c         : RTLAB_IO_61850.value=true
+[      1.365 ]          OpalRtMain.c         : RTLAB_IO_61850.version=2019.3
+[      1.365 ]          OpalRtMain.c         : RTLAB_IO_61850.description=IEC 61850 (Simulink blockset, legacy)
+[      1.365 ]          OpalRtMain.c         : SYNCHRONIZATION.value=true
+[      1.365 ]          OpalRtMain.c         : SYNCHRONIZATION.version=2019.3
+[      1.365 ]          OpalRtMain.c         : SYNCHRONIZATION.description=External time synchronization (IRIG-B, 1 PPS, PTP)
+[      1.365 ]          OpalRtMain.c         : ARTEMIS_NBSTATE.value=1000000
+[      1.365 ]          OpalRtMain.c         : ARTEMIS_NBSTATE.version=7.5
+[      1.365 ]          OpalRtMain.c         : ARTEMIS_NBSTATE.description=Activated electrical states for real-time simulation with ARTEMiS toolbox
+[      1.365 ]          OpalRtMain.c         : ARTEMIS_NUM_CORES.value=4
+[      1.365 ]          OpalRtMain.c         : ARTEMIS_NUM_CORES.version=7.5
+[      1.365 ]          OpalRtMain.c         : ARTEMIS_NUM_CORES.description=Activated cores for real-time simulation with ARTEMiS toolbox
+[      1.365 ]          OpalRtMain.c         : ARTEMIS_RT.value=true
+[      1.365 ]          OpalRtMain.c         : ARTEMIS_RT.version=7.5
+[      1.365 ]          OpalRtMain.c         : ARTEMIS_RT.description=Real-time simulation with the ARTEMiS blockset
+[      1.365 ]          OpalRtMain.c         : ARTEMIS_RTE.value=true
+[      1.365 ]          OpalRtMain.c         : ARTEMIS_RTE.version=7.5
+[      1.365 ]          OpalRtMain.c         : ARTEMIS_RTE.description=RT-EVENTS add-on blockset to ARTEMiS to precisely determine the firing pulse timing within a time step
+[      1.365 ]          OpalRtMain.c         : ARTEMIS_SSN.value=true
+[      1.365 ]          OpalRtMain.c         : ARTEMIS_SSN.version=7.5
+[      1.365 ]          OpalRtMain.c         : ARTEMIS_SSN.description=SSN add-on blockset to ARTEMiS for optimizing electrical system models using an advanced decoupling technique
+[      1.365 ]          OpalRtMain.c         : ARTEMIS_MMC.value=true
+[      1.365 ]          OpalRtMain.c         : ARTEMIS_MMC.version=7.5
+[      1.365 ]          OpalRtMain.c         : ARTEMIS_MMC.description=MMC valve blocks on CPU
+[      1.365 ]          OpalRtMain.c         : ARTEMIS_MMC_2P.value=true
+[      1.365 ]          OpalRtMain.c         : ARTEMIS_MMC_2P.version=7.5
+[      1.365 ]          OpalRtMain.c         : ARTEMIS_MMC_2P.description=MMC full-bridge block on CPU (obsolete at the end of 2018)
+[      1.365 ]          OpalRtMain.c         : ARTEMIS_MMC_CONTROLLER.value=true
+[      1.365 ]          OpalRtMain.c         : ARTEMIS_MMC_CONTROLLER.version=7.5
+[      1.365 ]          OpalRtMain.c         : ARTEMIS_MMC_CONTROLLER.description=MMC high-level control blocks on CPU
+[      1.365 ]          OpalRtMain.c         : RTE_DRIVE_NUM_CORES.value=4
+[      1.365 ]          OpalRtMain.c         : RTE_DRIVE_NUM_CORES.version=4.5
+[      1.365 ]          OpalRtMain.c         : RTE_DRIVE_NUM_CORES.description=Activated cores for real-time simulation with RT-EVENTS Drive blockset
+[      1.365 ]          OpalRtMain.c         : RTE_DRIVE_RT.value=true
+[      1.365 ]          OpalRtMain.c         : RTE_DRIVE_RT.version=4.5
+[      1.365 ]          OpalRtMain.c         : RTE_DRIVE_RT.description=Real-time simulation with RT-EVENTS Drive blockset
+[      1.365 ]          OpalRtMain.c         : RTE_NUM_CORES.value=5
+[      1.365 ]          OpalRtMain.c         : RTE_NUM_CORES.version=4.5
+[      1.365 ]          OpalRtMain.c         : RTE_NUM_CORES.description=Activated cores for real-time simulation with RT-EVENTS blockset
+[      1.365 ]          OpalRtMain.c         : RTE_RT.value=true
+[      1.365 ]          OpalRtMain.c         : RTE_RT.version=4.5
+[      1.365 ]          OpalRtMain.c         : RTE_RT.description=Real-time simulation with RT-Events blockset
+[      1.365 ]          OpalRtMain.c         : RTLAB_DEV.value=true
+[      1.365 ]          OpalRtMain.c         : RTLAB_DEV.version=2019.3
+[      1.365 ]          OpalRtMain.c         : RTLAB_DEV.description=Model code generation and build
+[      1.365 ]          OpalRtMain.c         : RTLAB_NRT.value=true
+[      1.365 ]          OpalRtMain.c         : RTLAB_NRT.version=2019.3
+[      1.365 ]          OpalRtMain.c         : RTLAB_NRT.description=Non real-time simulation 
+[      1.365 ]          OpalRtMain.c         : RTLAB_NUM_CORES.value=4
+[      1.365 ]          OpalRtMain.c         : RTLAB_NUM_CORES.version=2019.3
+[      1.365 ]          OpalRtMain.c         : RTLAB_NUM_CORES.description=Activated cores for real-time simulation
+[      1.365 ]          OpalRtMain.c         : RTLAB_RT.value=true
+[      1.365 ]          OpalRtMain.c         : RTLAB_RT.version=2019.3
+[      1.365 ]          OpalRtMain.c         : RTLAB_RT.description=Real-time simulation
+[      1.365 ]          OpalRtMain.c         : RTLAB_XHP.value=true
+[      1.365 ]          OpalRtMain.c         : RTLAB_XHP.version=2019.3
+[      1.365 ]          OpalRtMain.c         : RTLAB_XHP.description=High performance real-time simulation mode (XHP)
+[      1.365 ]          OpalRtMain.c         : EHS.value=true
+[      1.365 ]          OpalRtMain.c         : EHS.version=2019.3
+[      1.365 ]          OpalRtMain.c         : EHS.description=Enables ultra-fast electric solver (eHS) on FPGA.
+[      1.365 ]          OpalRtMain.c         : EHS_TOTAL_PERFORMANCE.value=2
+[      1.365 ]          OpalRtMain.c         : EHS_TOTAL_PERFORMANCE.version=2019.3
+[      1.365 ]          OpalRtMain.c         : EHS_TOTAL_PERFORMANCE.description=Total number of cores allowed.
+[      1.365 ]          OpalRtMain.c         : EHS_X64.value=1
+[      1.365 ]          OpalRtMain.c         : EHS_X64.version=2019.3
+[      1.365 ]          OpalRtMain.c         : EHS_X64.description=Number of eHS x64 cores activated on FPGA.
+[      1.365 ]          OpalRtMain.c         : XSG_EHS.value=true
+[      1.365 ]          OpalRtMain.c         : XSG_EHS.version=2019.3
+[      1.365 ]          OpalRtMain.c         : XSG_EHS.description=FPGA-based power electronics solver (eHS)
+[      1.365 ]          OpalRtMain.c         : XSG_CONVERTER.value=true
+[      1.365 ]          OpalRtMain.c         : XSG_CONVERTER.version=2019.3
+[      1.365 ]          OpalRtMain.c         : XSG_CONVERTER.description=FPGA converter blockset
+[      1.365 ]          OpalRtMain.c         : XSG_ENCODER.value=true
+[      1.365 ]          OpalRtMain.c         : XSG_ENCODER.version=2019.3
+[      1.365 ]          OpalRtMain.c         : XSG_ENCODER.description=FPGA encoder blockset
+[      1.365 ]          OpalRtMain.c         : XSG_IM.value=true
+[      1.365 ]          OpalRtMain.c         : XSG_IM.version=2019.3
+[      1.365 ]          OpalRtMain.c         : XSG_IM.description=FPGA Induction Machine models
+[      1.365 ]          OpalRtMain.c         : XSG_PMSM_SH.value=true
+[      1.365 ]          OpalRtMain.c         : XSG_PMSM_SH.version=2019.3
+[      1.365 ]          OpalRtMain.c         : XSG_PMSM_SH.description=FPGA spacial harmonic PMSM machine models
+[      1.365 ]          OpalRtMain.c         : XSG_PMSM_VDQ.value=true
+[      1.365 ]          OpalRtMain.c         : XSG_PMSM_VDQ.version=2019.3
+[      1.365 ]          OpalRtMain.c         : XSG_PMSM_VDQ.description=FPGA variable-DQ PMSM machine models
+[      1.365 ]          OpalRtMain.c         : XSG_SCOPE.value=true
+[      1.365 ]          OpalRtMain.c         : XSG_SCOPE.version=2019.3
+[      1.365 ]          OpalRtMain.c         : XSG_SCOPE.description=FPGA model real-time datalogging
+[      1.365 ]          OpalRtMain.c         : XSG_SM.value=true
+[      1.365 ]          OpalRtMain.c         : XSG_SM.version=2019.3
+[      1.365 ]          OpalRtMain.c         : XSG_SM.description=FPGA Synchronous Machine models
+[      1.366 ]          OpalRtMain.c         : XSG_SRM.value=true
+[      1.366 ]          OpalRtMain.c         : XSG_SRM.version=2019.3
+[      1.366 ]          OpalRtMain.c         : XSG_SRM.description=FPGA switched reluctance machine models
+[      1.366 ]          OpalRtMain.c         : MACHINE_INFO_BEGIN
+[      1.366 ]          OpalRtMain.c         : MAC_RANK=2
+[      1.366 ]          OpalRtMain.c         : INFO_TIME=25/11/2021
+[      1.366 ]          OpalRtMain.c         : MAC Address=B4:96:91:71:08:58
+[      1.366 ]          OpalRtMain.c         : HD Serial Number=Samsung_SSD_860_PRO_512GB_S5GBNA0M900715M
+[      1.366 ]          OpalRtMain.c         : MACHINE_INFO_END
+[      1.366 ]          OpalRtMain.c         : MACHINE_INFO_BEGIN
+[      1.366 ]          OpalRtMain.c         : MAC_RANK=2
+[      1.366 ]          OpalRtMain.c         : INFO_TIME=25/11/2021
+[      1.366 ]          OpalRtMain.c         : MAC Address=B4:96:91:71:08:58
+[      1.366 ]          OpalRtMain.c         : HD Serial Number=SATA_Samsung_SSD_860S5GANS0R837281L
+[      1.366 ]          OpalRtMain.c         : MACHINE_INFO_END
+[      1.366 ]          OpalRtMain.c         : MACHINE_INFO_BEGIN
+[      1.366 ]          OpalRtMain.c         : MAC_RANK=0
+[      1.366 ]          OpalRtMain.c         : INFO_TIME=25/11/2021
+[      1.366 ]          OpalRtMain.c         : MAC Address=B4:96:91:71:08:58
+[      1.366 ]          OpalRtMain.c         : HD Serial Number=SATA_Samsung_SSD_860S5GBNA0M900715M
+[      1.366 ]          OpalRtMain.c         : MACHINE_INFO_END
+[      1.366 ]          OpalRtMain.c         : -------  License info dump END  -------
+[      1.366 ]          OpalRtMain.c         : 
+[      1.366 ]          OpalRtMain.c         : OpalAcq_Init()
+ [      1.368 ]            Loading data file: OpalAcquisitionSourcesCreator.data
+ [      1.380 ]            Loading data file: OpalRealTimeParametersCreator.data
+ [      1.389 ]            Service Parameters/ParametersService found
+[      1.387 ]          OpalRtMain.c         : Line 1093
+[      1.387 ]          OpalRtMain.c         : RT_mem_name = RT_basic_cosimulation_c_1_sm_master_6605
+[      1.387 ]          OpalRtMain.c         : Line 1099
+[      1.387 ]          OpalRtIf.c           : Shared memory RT created
+[      1.387 ]          OpalRtMain.c         : Line 1104
+[      1.387 ]          OpalRtMain.c         : Line 1210
+[      1.387 ]          OpalRtMain.c         : Model stop time has been set to 0.000000 s
+[      1.387 ]          OpalRtMain.c         : Model pause time has been set to 0.000000 s
+[      1.387 ]          OpalRtMain.c         : Line 1269
+[      1.387 ]          OpalRtMain.c         : Snapshot enabled.
+[      1.387 ]          OpalRtMain.c         : Line 1295
+[      1.387 ]          OpalRtMain.c         : Line 1371
+[      1.387 ]          OpalRtMain.c         : Line 1495
+[      1.387 ]          OpalRtMain.c         : Line 1532
+[      1.387 ]          OpalRtMain.c         : Line 1554
+[      1.387 ]          OpalRtMain.c         : Line 1578
+[      1.387 ]          OpalRtMain.c         : Line 1602
+[      1.387 ]          OpalRtMain.c         : Assigned main thread to CPU 1 (mask 0x2)
+[      1.387 ]          OpalRtMain.c         : Display of standard output will be disabled
+[      1.387 ]          OpalRtMain.c         : Standard output has been redirected to /dev/null
+[      1.387 ]          OpalRtMain.c         : Standard error has been redirected to /dev/null
+[      1.387 ]          OpalRtMain.c         : Standard input has been redirected to /dev/null
+[      1.387 ]          OpalRtMain.c         : Line 1634
+[      1.387 ]          OpalBlobsInternal.c  : blobs: new callback function registered for blob id "OP_INFO_REGISTER_GET_INFO"
+[      1.387 ]          OpalBlobsInternal.c  : blobs: new callback function registered for blob id "OP_INFO_REGISTER_SET_INFO_1"
+[      1.387 ]          OpalRtMain.c         : Exiting from OpalInit function. User block(s) will be called.
+ [      1.389 ]            Loading data file: OpalControlSignalsCreator.data
+[      1.387 ]           SSN: Structure basic_cosimulation_c_1_sm_master_powergui_EquivalentModel1_State-Space.ssn loaded
+
+[      1.387 ]           SSN: Version : 1.9
+          SSN: File Name : basic_cosimulation_c_1_sm_master
+          SSN: Structure SPS saved : Thu Mar 16 12:54:19 2023
+
+
+ [      1.407 ]            AVX 8 rows feature: disabled
+[      1.404 ] ssn_sfun_v1.c        : the SSN group #0 has 14 states
+[      1.404 ] ssn_sfun_v1.c        : The S-function requires 14 states. 1000000 states are allowed on your license
+[      1.405 ]          OpalAcquisition.c    : Successfully registered acq group 1 for 26 fixed signals and 100 max dynamic signals
+[      1.405 ]           SSN: Structure basic_cosimulation_c_1_sm_master_powergui_EquivalentModel2_State-Space.ssn loaded
+
+[      1.405 ]           SSN: Version : 1.9
+          SSN: File Name : basic_cosimulation_c_1_sm_master
+          SSN: Structure SPS saved : Thu Mar 16 12:54:19 2023
+
+
+ [      1.425 ]            AVX 8 rows feature: disabled
+[      1.422 ] ssn_sfun_v1.c        : the SSN group #0 has 14 states
+[      1.422 ] ssn_sfun_v1.c        : The S-function requires 14 states. 999986 states are allowed on your license
+[      1.431 ]          async_serial.c       : async serial driver installation is supported only on 4.19.55-opalrtlinux
+
+[      1.431 ]          async_serial.c       : Asyncserial: Successfully loaded the kernel modules
+[      1.431 ]          OpalRtMain.c         : OpalMainLoop()
+[      1.431 ]          OpalSync.c           : Monitoring Controller initialization completed.
+[      1.431 ]          MonLogger.c          : Acq source memory created for monitoring, 23 probes, 46 signals
+[      1.431 ]          MonLogger.c          : Monitoring Logger initialization completed.
+[      1.431 ]          OpalAcquisition.c    : Successfully registered 46 signals for monitoring
+[      1.431 ]          OpalAcquisition.c    : Registering trigger for acq group 1 : type is 3, offset is 0
+[      1.431 ]          OpalAcquisition.c    : Registering trigger for acq group 25 : type is 3, offset is 0
+[      1.431 ]          OpalBlobsInternal.c  : blobs: new callback function registered for blob id "STATIC_ACQ_INFO"
+[      1.433 ]          OpalClientServer.c   : DATA MEM allocated: 5089936 bytes for client 6
+[      1.433 ]          OpalClientServer.c   : (One extra signal for Write to File)
+[      1.433 ]          OpalClientServer.c   : DATA MEM allocated: 84272 bytes for client 30
+[      1.433 ]          OpalClientServer.c   : (One extra signal for Write to File)
+[      1.433 ]          OpalRtMain.c         : Line 1855
+[      1.433 ]          OpalClientServer.c   : DATA MEM allocated: 3805 bytes for client 1
+[      1.433 ]          OpalClientServer.c   : (One extra signal for Write to File)
+[      1.433 ]          OpalRtMain.c         : Line 1860
+[      1.433 ]          OpalRtBlobs.c        : Number of registered blobs ids = 3
+[      1.433 ]          OpalClientServer.c   : DATA MEM allocated: 66092 bytes for client 5
+[      1.433 ]          OpalClientServer.c   : (One extra signal for Write to File)
+[      1.433 ]          OpalRtBlobs.c        : OpalBlobs_MemInit, frame 0, actualDataSize 66092
+[      1.433 ]          OpalRtMain.c         : Line 1862
+[      1.433 ]          OpalIO.c             : Searching call back INIT for sample time 0.000000 ...
+[      1.433 ]          OpalIO.c             :    Calling prio 1
+[      1.433 ]          OpalIO.c             :    Calling prio 1
+[      1.433 ]          OpalIO.c             :    Calling prio 2
+[      1.433 ]          genAsyncCtrl_misc.c  : Shared memory created
+[      1.433 ]          OpalIO.c             :    Calling prio 3
+[      1.433 ]          recvAsync_misc.c     : Shared memory opened
+[      1.433 ]          OpalIO.c             :    Calling prio 3
+[      1.433 ]          sendAsync_misc.c     : Shared memory opened
+[      1.433 ]          sendAsync_misc.c     : ASYNC_SEND_OPTIMIZE undeclared:Send Async block not using optimizations
+[      1.433 ]          OpalIO.c             :    Calling prio 4
+VILLASnode-OPAL-UDP: Version        : 0.7
+VILLASnode-OPAL-UDP: Remote Address : 192.168.10.16
+VILLASnode-OPAL-UDP: Remote Port    : 23002
+VILLASnode-OPAL-UDP: Local Port     : 23001
+VILLASnode-OPAL-UDP: SendToIPPort thread started
+VILLASnode-OPAL-UDP: RecvFromIPPort thread started
+[      1.438 ]          genAsyncCtrl_misc.c  : Asynchronous application 'AsyncIP' launched
+[      1.438 ]          OpalIO.c             : Searching call back INIT for sample time 0.000050 ...
+[      1.438 ]          OpalRtMain.c         : Line 1868
+[      1.438 ]          OpalRtMain.c         : Line 1881
+ [      1.464 ]            I/O Manager: Synchronization created
+ [      1.465 ]            Initialization of Synchronization / Synchronization
+ [      1.465 ]            
+ [      1.465 ]            -----------------------------------------
+ [      1.465 ]            Synchronization Configuration
+ [      1.465 ]            -----------------------------------------
+ [      1.465 ]            
+ [      1.465 ]            Hardware:                 _Oregano_Syn1588_PCIe
+ [      1.465 ]            Board index:              0
+ [      1.465 ]            Synchronization mode:     PTP
+ [      1.465 ]            Synchronization output:   _1_PPS
+ [      1.465 ]            Wait for next second:     1
+ [      1.465 ]            Synchronization timeout:  15 seconds
+ [      1.465 ]            Network interface:        eth6
+ [      1.465 ]            PTP profile:              Power
+ [      1.465 ]            Delay mechanism:          _Peer_to_peer
+ [      1.465 ]            VLAN:                     disabled
+ [      1.465 ]            Priority 1:               1
+ [      1.465 ]            Advanced options:         
+ [      1.465 ]            
+ [      1.465 ]            
+ [      1.465 ] WARNING:   Synchronization: Verbose mode is activated. It will decrease performance, may create overruns and have impact on synchronization precision.
+ [      1.465 ] WARNING:   Synchronization: Verbose mode should only be used for debug purposes.
+ [      1.465 ]            Synchronization: Successfully initialized card #0
+ [      1.465 ]            Synchronization: Opening shared memory...
+ [      1.465 ]            Synchronization: Successfully opened shared memory
+ [      1.465 ]            Synchronization: Waiting 15 seconds for the synchronization...
+VILLASnode-OPAL-UDP: Timeout while waiting for data
+VILLASnode-OPAL-UDP: Timeout while waiting for data
+VILLASnode-OPAL-UDP: Timeout while waiting for data
+VILLASnode-OPAL-UDP: Timeout while waiting for data
+VILLASnode-OPAL-UDP: Timeout while waiting for data
+VILLASnode-OPAL-UDP: Timeout while waiting for data
+VILLASnode-OPAL-UDP: Timeout while waiting for data
+VILLASnode-OPAL-UDP: Timeout while waiting for data
+VILLASnode-OPAL-UDP: Timeout while waiting for data
+VILLASnode-OPAL-UDP: Timeout while waiting for data
+VILLASnode-OPAL-UDP: Timeout while waiting for data
+VILLASnode-OPAL-UDP: Timeout while waiting for data
+VILLASnode-OPAL-UDP: Timeout while waiting for data
+VILLASnode-OPAL-UDP: Timeout while waiting for data
+VILLASnode-OPAL-UDP: Timeout while waiting for data
+ [     16.473 ]            Synchronization: Activating 1PPS output signal
+[     16.474 ]          OpalRtMain.c         : Registering I/O licenses...
+ [     16.474 ]            Synchronization: Setting time step to 50000 ns
+ [     16.474 ]            Synchronization: Actual time is 32 sec, 481637888 nanoseconds
+ [     16.474 ]            Synchronization: Setting sync signal to be fired at 33 sec, 0 nanoseconds
+ [     16.474 ]            I/O Manager: Synchronization is started
+ [     16.484 ]            Connection successful: SM_Master/epoch_time_sec/In1/Value to Synchronization/Time/Seconds
+ [     16.484 ]            Connection successful: SM_Master/epoch_time_nsec/In1/Value to Synchronization/Time/Nanoseconds
+ [     16.484 ]            Connection successful: SM_Master/ptp_slave_offset/In1/Value to Synchronization/Info/PTP Slave Offset
+ [     16.484 ]            Connection successful: SM_Master/ptp_sync_state/In1/Value to Synchronization/Info/PTP Sync State
+ [     16.484 ]            Connection successful: SM_Master/sync_accuracy/In1/Value to Synchronization/Info/Sync Accuracy
+ [     16.484 ]            Connection successfully made : 5/5
+[     16.489 ]          OpalRtMain.c         : Line 1894
+ [     16.489 ]            No connections file found that matches the search pattern: connections_dib_ios*.opal
+ [     16.489 ]            Synchronization: Setting time step to 50000 ns
+ [     16.489 ]            Synchronization: Actual time is 32 sec, 497082944 nanoseconds
+ [     16.489 ]            Synchronization: Setting sync signal to be fired at 33 sec, 0 nanoseconds
+[     16.490 ]          OpalRtIf.c           : Shared memory MRate created
+[     16.490 ]          OpalRtIf.c           : Line 2272
+[     16.490 ]          OpalRtIf.c           : Line 2297
+[     16.490 ]          OpalRtIf.c           : sm_master have 521 points (500+0+5+0+16+0+0+0)
+[     16.490 ]          OpalRtIf.c           : BossClk : sm_master
+[     16.490 ]          OpalRtIf.c           : Status sample time: 0.000050
+[     16.490 ]          OpalRtIf.c           : Line 2934
+[     16.490 ]          OpalRtMain.c         : SubSystem step size = 0.000050 sec. Status updated at every 1 local step.
+[     16.490 ]          OpalRtMain.c         : ------- Log node 1 -------
+[     16.490 ]          OpalRtMain.c         : IO               = 0
+[     16.490 ]          OpalRtMain.c         : subSysSampleTime = 0.000050
+[     16.490 ]          OpalRtMain.c         : typeOfClock      = 3
+[     16.490 ]          OpalRtMain.c         : clockFactor      = 1
+[     16.490 ]          OpalRtMain.c         : OpSyncHard       = 0
+[     16.490 ]          OpalRtMain.c         : NeedSync         = 0
+[     16.490 ]          OpalRtMain.c         : StatusST         = 0.000050
+[     16.490 ]          OpalRtMain.c         : skip             = 1
+[     16.490 ]          OpalRtMain.c         : XHP mode enabled on this CPU.
+[     16.490 ]          OpalSyncOs.c         : Registered CB_WaitForTimer_sync_Polling
+[     16.490 ]          OpalRtMain.c         : Synchronized with polling  software timer.
+[     16.490 ]          OpalRtMain.c         : Line 2156
+[     16.492 ]          OpalClientServer.c   : DATA MEM allocated: 3396283 bytes for client 3
+[     16.492 ]          OpalClientServer.c   : (One extra signal for Write to File)
+[     16.493 ]          OpalRtMain.c         : Line 2192
+[     16.493 ]          OpalRtMain.c         : Parameters Init: subsystem has 669 values (698), 1 pages.
+
+[     16.493 ]          OpalClientServer.c   : DATA MEM allocated: 22542 bytes for client 2
+[     16.493 ]          OpalClientServer.c   : (One extra signal for Write to File)
+[     16.493 ]          OpalRtMain.c         : Line 2198
+[     16.493 ]          OpalClientServer.c   : DATA MEM allocated: 327645 bytes for client 4
+[     16.493 ]          OpalClientServer.c   : (One extra signal for Write to File)
+[     16.493 ]          Signals.c            : ReturnSignalsInit, id 4, maxNbSignals 1015, buf size 327645
+[     16.493 ]          Signals.c            : ReturnSignalsInit, frame 0, actualDataSize 327645
+[     16.493 ]          OpalRtMain.c         : Line 2216
+[     16.494 ]          OpalRtMain.c         : Subsys found in shared memory.
+[     16.496 ]          OpalRtMain.c         : Line 2247
+[     16.496 ]          OpalTarget.c         : Sending notification request for system control (cmd 7)
+[     16.499 ]          OpalRtMain.c         : Line 2252
+[     16.504 ]          watchdog.c           : Watchdog: v2022.1.0.405
+[     16.504 ]          watchdog.c           : WATCHDOG pid = 7044
+[     16.504 ]          watchdog.c           : Watchdog ready.
+[     16.505 ]          OpalRtMain.c         : Line 2298
+[     16.505 ]          OpalRtMain.c         : The model contains 2 sample times.
+[     16.505 ]          OpalRtMain.c         : Base sample time = 0.000050
+[     16.505 ]          OpalRtMain.c         : Real-time SingleTasking mode.
+[     16.505 ]          OpalRtMain.c         : OpalExecutionMainLoop()
+ [     16.511 ]            Registered licensed feature ARTEMIS_NUM_CORES: decreased count by 1, now remains 3
+[     16.519 ]          OpalRtMain.c         : *** Fetched 1 cores, remains 3
+[     16.519 ]          OpalRtMain.c         : RT-LAB license ok. Unlimited time license.
+[     16.519 ]          MonLogger.c          : Monitoring: start time = 0.000 ms, using CPU speed = 3199 MHz
+[     16.521 ]          OpalRtSnapshot.c     : Snapshot taken (opbasic_cosimulation_c_sm_master_0.snap).
+[     16.521 ]          OpalRtSnapshot.c     : Estimated time to take a snapshot = 1611 us.
+[     16.521 ]          OpalPrint.c          : Sending file name notification request for system control (cmd 30)
+[     16.521 ]          OpalHostSendIf.c     : Open file done (/home/ws4/c/users/antero/opal-rt/rt-labv2022.1_workspace/co-simulation_circuit_asyncip_eth2_sim01/models/basic_cosimulation_circuit/basic_cosimulation_circuit_sm_master/opbasic_cosimulation_c_sm_master_0.snap)
+[     16.773 ]          OpalHostSendIf.c     : Close file done (/home/ws4/c/users/antero/opal-rt/rt-labv2022.1_workspace/co-simulation_circuit_asyncip_eth2_sim01/models/basic_cosimulation_circuit/basic_cosimulation_circuit_sm_master/opbasic_cosimulation_c_sm_master_0.snap)
+[     16.773 ]          OpalPrint.c          : Sending file name notification request for system control (cmd 33)
+[     16.773 ]          OpalSyncOs.c         : clk_res = 50 us
+[     16.773 ]          OpalSyncOs.c         : clk_res_factor = 1
+[     16.773 ]          OpalTarget.c         : Sending notification request for system control (cmd 20)
+[     16.773 ]          OpalRtMain.c         :  [0]: PAUSE mode, IO set to pause value.
+[     16.773 ]          OpalRtMain.c         : 		Total of 0 Overrun detected.
+[     16.773 ]          OpalRtMain.c         : 		Thu Mar 16 12:55:57 2023
+
+[     16.824 ]          OpalRtMain.c         : SYS_CALC_STEP Command (0.000050)
+[     16.824 ]          OpalTarget.c         : Sending feedback request for system control (cmd 8)
+[     16.834 ]          OpalRtMain.c         : received blob cmd 60 at cycle 0
+[     16.834 ]          OpalRtBlobs.c        : Sending feedback request for blobs (cmd 60)
+[     16.834 ]          OpalTarget.c         : Send data request for client 5 (Queue=1)
+[     16.844 ]          OpalRtMain.c         : received blob cmd 61 at cycle 0
+[     16.844 ]          OpalRtBlobs.c        : Sending feedback request for blobs (cmd 61)
+[     16.844 ]          OpalTarget.c         : Send data request for client 5 (Queue=1)
+[     16.854 ]          OpalRtMain.c         : received blob cmd 59 at cycle 0
+[     16.854 ]          OpalRtMain.c         : handling blob cmd 59 at cycle 0 (blob OP_INFO_REGISTER_GET_INFO)
+[     16.854 ]          OpalRtBlobs.c        : Sending feedback request for blobs (cmd 59)
+[     16.854 ]          OpalTarget.c         : Send data request for client 5 (Queue=1)
+[     16.864 ]          OpalSync.c           : Monitoring: received request for number of probes
+[     16.864 ]          OpalSync.c           : Sending feedback request for monitoring (cmd 48)
+[     16.864 ]          OpalTarget.c         : Send data request for client 1 (Queue=1)
+[     16.874 ]          OpalRtMain.c         : received blob cmd 59 at cycle 0
+[     16.874 ]          OpalRtMain.c         : handling blob cmd 59 at cycle 0 (blob STATIC_ACQ_INFO)
+[     16.874 ]          OpalRtBlobs.c        : Sending feedback request for blobs (cmd 59)
+[     16.874 ]          OpalTarget.c         : Send data request for client 5 (Queue=1)
+[     16.884 ]          OpalSync.c           : Group 1: Receive 8 cmd from probe
+[     16.884 ]          OpalAcquisition.c    : Changing trigger for acq group 1 : type is 3, offset is 0
+[     16.884 ]          OpalSync.c           : Probe cmd 34 for 1 subSys (group 1)
+[     16.884 ]          OpalAcquisition.c    : Probe cmd (34) group 1: ok to apply at pass 0.000000
+[     16.884 ]          OpalAcquisition.c    : ACQ GROUP 1: UPDATING PARAMETER AT PASS 0.000000 ....
+
+[     16.884 ]          OpalAcquisition.c    : Group 1: repeat factor = 1 (1), status decimation = 1
+[     16.884 ]          OpalAcquisition.c    : Probe cmd has been applied at pass 0.000000.
+[     16.884 ]          OpalSync.c           : Sending feedback request for probe (cmd 34, group 1)
+[     16.884 ]          OpalTarget.c         : Send data request for client 1 (Queue=1)
+[     16.904 ]          OpalSync.c           : Group 25: Receive 8 cmd from probe
+[     16.904 ]          OpalAcquisition.c    : Changing trigger for acq group 25 : type is 3, offset is 0
+[     16.904 ]          OpalSync.c           : Probe cmd 34 for 1 subSys (group 25)
+[     16.904 ]          OpalAcquisition.c    : Probe cmd (34) group 25: ok to apply at pass 0.000000
+[     16.904 ]          OpalAcquisition.c    : ACQ GROUP 25: UPDATING PARAMETER AT PASS 0.000000 ....
+
+[     16.904 ]          OpalAcquisition.c    : Group 25: repeat factor = 1 (1), status decimation = 1
+[     16.904 ]          OpalAcquisition.c    : Probe cmd has been applied at pass 0.000000.
+[     16.904 ]          OpalSync.c           : Sending feedback request for probe (cmd 34, group 25)
+[     16.904 ]          OpalTarget.c         : Send data request for client 1 (Queue=1)
+VILLASnode-OPAL-UDP: Timeout while waiting for data
+VILLASnode-OPAL-UDP: Timeout while waiting for data
+VILLASnode-OPAL-UDP: Timeout while waiting for data
+VILLASnode-OPAL-UDP: Timeout while waiting for data
+VILLASnode-OPAL-UDP: Timeout while waiting for data
+VILLASnode-OPAL-UDP: Timeout while waiting for data
+VILLASnode-OPAL-UDP: Timeout while waiting for data
+VILLASnode-OPAL-UDP: Timeout while waiting for data
+VILLASnode-OPAL-UDP: Timeout while waiting for data
+VILLASnode-OPAL-UDP: Timeout while waiting for data
+VILLASnode-OPAL-UDP: Timeout while waiting for data
+VILLASnode-OPAL-UDP: Timeout while waiting for data
+[     29.874 ]          OpalRtMain.c         : SYS_CALC_STEP Command (0.000050)
+[     29.874 ]          OpalTarget.c         : Sending feedback request for system control (cmd 8)
+[     29.884 ]          OpalRtMain.c         : SYS_EXECUTE Command
+[     29.884 ]          OpalRtMain.c         : Calculation step set to 0.000050, stopTime = 0.000000, pauseTime = 0.000000
+[     29.884 ]          OpalRtMain.c         : XHP mode enabled
+[     29.884 ]          OpalTarget.c         : Sending notification request for system control (cmd 9)
+[     29.884 ]          OpalTarget.c         : Sending feedback request for system control (cmd 9)
+[     29.884 ]          OpalRtMain.c         :  [1]: RUN mode, IO set to run value.
+[     29.884 ]          OpalRtMain.c         : 		Synchronized step size = 50 us.
+[     29.884 ]          OpalRtMain.c         : 		Thu Mar 16 12:56:11 2023
+
+[     29.884 ]          OpalAcquisition.c    : ACQ GROUP 1: UPDATING PARAMETER AT PASS 0.000000 ....
+
+[     29.884 ]          OpalAcquisition.c    : Group 1: repeat factor = 1 (1), status decimation = 1
+[     29.884 ]          OpalAcquisition.c    : ACQ GROUP 25: UPDATING PARAMETER AT PASS 0.000000 ....
+
+[     29.884 ]          OpalAcquisition.c    : Group 25: repeat factor = 1 (1), status decimation = 1
+[     29.884 ]          OpalRtMain.c         : Main priority set to 99
+[     79.965 ]          OpalRtMain.c         : XHP mode disabled
+VILLASnode-OPAL-UDP: SendToIPPort: Finished
+VILLASnode-OPAL-UDP: RecvFromIPPort: Finished
+[     79.965 ]          OpalRtMain.c         :  [203213]: Reset
+[     79.965 ]          OpalRtMain.c         : 		Total of 198832 Overruns detected.
+[     79.965 ]          OpalRtMain.c         : 		Thu Mar 16 12:57:01 2023
+
+[     79.965 ]          OpalRtMain.c         : OpalCloseBeforeUserFunction()
+[     79.965 ]          OpalIO.c             : Searching call back CLOSE for sample time 0.000000 ...
+[     79.965 ]          OpalIO.c             : Searching call back CLOSE for sample time 0.000050 ...
+[     80.066 ]          genAsyncCtrl_misc.c  : Cleaning Asynchronous shared memory
+ [     80.051 ]            
+
+MasterRoot shutdown!
+ [     80.051 ]            Objects destruction
+ [     80.051 ]            ..Unloading Notification Center..
+ [     80.052 ]            Objects are deleted
+Nothing should happen after this action
+[     80.067 ]          OpalRtMain.c         : OpalClose()
+[     80.067 ]          OpalTarget.c         : Sending feedback request for system control (cmd 13)
+[     80.067 ]          OpalRtMain.c         : PrintOverrunMsg()
+[     80.067 ]          OpalRtMain.c         : 
+
+
+[     80.067 ] WARNING: OpalRtMain.c         : 198832 OVERRUNS detected.
+[     80.067 ]          OpalRtMain.c         : OpalParameter_Close()
+[     80.067 ]          OpalRtMain.c         : CommRtClose()
+[     80.069 ]          OpalRtMain.c         : BEFORE OpalTargetRequest_Close()
+[     80.069 ]          OpalPrint.c          : Sending file name notification request for system control (cmd 30)
+[     80.069 ]          OpalPrint.c          : Sending file name notification request for system control (cmd 30)
+[     80.069 ]          TargetRequest.c      : Purging target requests priority 0 ...
+[     80.069 ]          TargetRequest.c      : Done purging target requests priority 0.
+[     80.069 ]          TargetRequest.c      : Purging target requests priority 1 ...
+[     80.079 ]          TargetRequest.c      : Done purging target requests priority 1.
+[     80.079 ]          TargetRequest.c      : Reset done

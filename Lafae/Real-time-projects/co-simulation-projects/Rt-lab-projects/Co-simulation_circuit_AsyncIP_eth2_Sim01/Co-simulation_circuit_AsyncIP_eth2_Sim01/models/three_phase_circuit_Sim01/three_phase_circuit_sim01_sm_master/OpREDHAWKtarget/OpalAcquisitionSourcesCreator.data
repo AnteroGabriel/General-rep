@@ -1,0 +1,168 @@
+SM_master/timeout/port1
+/
+
+2
+F64
+1
+SM_master/OpAsyncRecv/S-Function1/port1
+/
+
+3
+F64
+1
+SM_master/OpAsyncRecv/S-Function1/port2
+/
+
+4
+F64
+1
+SM_master/OpAsyncRecv/S-Function1/port3
+/
+
+5
+F64
+3
+SM_master/Circuit_ITM_Source/Three-Phase Source/Model/Sine Wave A/port1
+/
+
+6
+F64
+1
+SM_master/Circuit_ITM_Source/Three-Phase Source/Model/Sine Wave B/port1
+/
+
+7
+F64
+1
+SM_master/Circuit_ITM_Source/Three-Phase Source/Model/Sine Wave C/port1
+/
+
+8
+F64
+1
+SM_master/Circuit_ITM_Source/Three-Phase V-I Measurement/Model/U A:/do not delete this gain/port1
+/
+
+10
+F64
+1
+SM_master/Circuit_ITM_Source/Three-Phase V-I Measurement/Model/U B:/do not delete this gain/port1
+/
+
+11
+F64
+1
+SM_master/Circuit_ITM_Source/Three-Phase V-I Measurement/Model/U C:/do not delete this gain/port1
+/
+
+12
+F64
+1
+SM_master/Circuit_ITM_Source/Three-Phase V-I Measurement/Kv1/port1
+/
+
+13
+F64
+3
+SM_master/Original_Circuit/Three-Phase Source1/Model/Sine Wave A/port1
+/
+
+14
+F64
+1
+SM_master/Original_Circuit/Three-Phase Source1/Model/Sine Wave B/port1
+/
+
+15
+F64
+1
+SM_master/Original_Circuit/Three-Phase Source1/Model/Sine Wave C/port1
+/
+
+16
+F64
+1
+SM_master/Original_Circuit/Three-Phase V-I Measurement1/Model/U A:/do not delete this gain/port1
+/
+
+18
+F64
+1
+SM_master/Original_Circuit/Three-Phase V-I Measurement1/Model/U B:/do not delete this gain/port1
+/
+
+19
+F64
+1
+SM_master/Original_Circuit/Three-Phase V-I Measurement1/Model/U C:/do not delete this gain/port1
+/
+
+20
+F64
+1
+SM_master/Original_Circuit/Three-Phase V-I Measurement1/Kv1/port1
+/
+
+21
+F64
+3
+SM_master/Original_Circuit/Three-Phase V-I Measurement1/Model/I A:/do not delete this gain/port1
+/
+
+22
+F64
+1
+SM_master/Original_Circuit/Three-Phase V-I Measurement1/Model/I B:/do not delete this gain/port1
+/
+
+23
+F64
+1
+SM_master/Original_Circuit/Three-Phase V-I Measurement1/Model/I C:/do not delete this gain/port1
+/
+
+24
+F64
+1
+SM_master/Original_Circuit/Three-Phase V-I Measurement1/Kv/port1
+/
+
+25
+F64
+3
+SM_master/Circuit_ITM_Source/Three-Phase V-I Measurement/Model/I A:/do not delete this gain/port1
+/
+
+26
+F64
+1
+SM_master/Circuit_ITM_Source/Three-Phase V-I Measurement/Model/I B:/do not delete this gain/port1
+/
+
+27
+F64
+1
+SM_master/Circuit_ITM_Source/Three-Phase V-I Measurement/Model/I C:/do not delete this gain/port1
+/
+
+28
+F64
+1
+SM_master/Circuit_ITM_Source/Three-Phase V-I Measurement/Kv/port1
+/
+
+29
+F64
+3
+SM_master/data ready 2.5 kHz/port1
+/
+
+30
+F64
+1
+SM_master/send message 1/S-Function2/port1
+/
+
+31
+F64
+1

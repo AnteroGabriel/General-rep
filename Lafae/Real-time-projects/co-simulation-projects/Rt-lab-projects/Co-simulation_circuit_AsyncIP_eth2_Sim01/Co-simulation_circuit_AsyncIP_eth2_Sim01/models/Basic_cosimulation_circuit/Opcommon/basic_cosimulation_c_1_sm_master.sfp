@@ -1,0 +1,25 @@
+[S-Function list]
+basic_cosimulation_c_1_sm_master/SM_Master/OpAsyncRecv/S-Function1=0
+basic_cosimulation_c_1_sm_master/SM_Master/OpComm/Receive/S-Function=0
+basic_cosimulation_c_1_sm_master/SM_Master/OpIPSocketCtrl1=0
+basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/PWM/RTE Conversion1=0
+basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/PWM/RTE SPWM1=0
+basic_cosimulation_c_1_sm_master/SM_Master/Saving RT Data1/OpWriteFile26=0
+basic_cosimulation_c_1_sm_master/SM_Master/Saving RT Data1/OpWriteFile27=0
+basic_cosimulation_c_1_sm_master/SM_Master/Saving RT Data1/OpWriteFile28=0
+basic_cosimulation_c_1_sm_master/SM_Master/Saving RT Data1/OpWriteFile29=0
+basic_cosimulation_c_1_sm_master/SM_Master/Saving RT Data1/OpWriteFile30=0
+basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/PWM/RTE Conversion1=0
+basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/PWM/RTE SPWM1=0
+basic_cosimulation_c_1_sm_master/SM_Master/rtlab_send_subsystem/Subsystem1/Send1/S-Function=0
+basic_cosimulation_c_1_sm_master/SM_Master/send message 1/S-Function2=0
+[S-Function files]
+basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/PWM/RTE Conversion1=rte_conversion
+basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/PWM/RTE SPWM1=rte_svpwm
+basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/PWM/RTE Conversion1=rte_conversion
+basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/PWM/RTE SPWM1=rte_svpwm
+[S-Function modules]
+basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/PWM/RTE Conversion1=''
+basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/PWM/RTE SPWM1=''
+basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/PWM/RTE Conversion1=''
+basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/PWM/RTE SPWM1=''

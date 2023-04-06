@@ -1,0 +1,15 @@
+[
+  {"version":2},
+  {
+    "Opal::Simulation::SerializeableLoadParamList":
+    {
+      "name":"E75E74D0-54EE-45CC-8135-8E04FFD6B895",
+      "loadParamSets":
+      [
+        "Basic_cosimulation_circuit.slx",
+        "three_phase_circuit_Sim01.slx"
+      ],
+      "parent":"/"
+    }
+  }
+]

@@ -1,0 +1,366 @@
+
+-------------------- Starting compilation --------------------
+Start at : Wednesday, March 22, 2023, 14:37:48
+
+The current RT-LAB version is:  v2023.1.0.533
+The current model is:           C:\Users\Antero\OPAL-RT\RT-LABv2023.1_Workspace\basic_co_simulation_circuits.zip_expanded\Co-simulation_circuit_AsyncIP_eth2_Sim01\models\Basic_cosimulation_circuit\Basic_cosimulation_circuit.slx
+The current host platform is:   Windows
+The current target platform is: OPAL-RT Linux (x86-based)
+The current compiler is:        Automatic
+The target OS version is:       Red Hat 5.2 (2.6.29.6-opalrt-6.2.1)
+Separating model because setting 'RTLAB_Version' has changed.
+Preparing original model for code separation and generation...
+The current Matlab version is:  v9.11 (64 Bit) (R2021B)
+
+
+Warning: The promoted parameter 'OpWriteFile30/varname' specified in the mask parameter 'varname30' could not be resolved for the block 'Basic_cosimulation_circuit/SM_Master/Saving RT Data'
+> In load_system (line 21)
+In opInitFunction>OpenSystem (line 554)
+In opInitFunction>GenerateModel (line 204)
+In opInitFunction (line 101)
+Warning: Failed to resolve any promoted parameters specified in the mask parameter 'varname30' for the block 'Basic_cosimulation_circuit/SM_Master/Saving RT Data'. This parameter will default to edit parameter
+> In load_system (line 21)
+In opInitFunction>OpenSystem (line 554)
+In opInitFunction>GenerateModel (line 204)
+In opInitFunction (line 101)
+Warning: The promoted parameter 'OpWriteFile30/Filename' specified in the mask parameter 'Filename30' could not be resolved for the block 'Basic_cosimulation_circuit/SM_Master/Saving RT Data'
+> In load_system (line 21)
+In opInitFunction>OpenSystem (line 554)
+In opInitFunction>GenerateModel (line 204)
+In opInitFunction (line 101)
+Warning: Failed to resolve any promoted parameters specified in the mask parameter 'Filename30' for the block 'Basic_cosimulation_circuit/SM_Master/Saving RT Data'. This parameter will default to edit parameter
+> In load_system (line 21)
+In opInitFunction>OpenSystem (line 554)
+In opInitFunction>GenerateModel (line 204)
+In opInitFunction (line 101)
+RtlabInfo not loaded
+Separating RT-LAB model (number of RT subsystems = 1, console detected).
+Separating RT-LAB subsystem 'SM_Master'.
+Separating RT-LAB subsystem 'SC_console'.
+
+Model preparation and separation duration : 00h:00m:40s
+-------------------- Completed successfully --------------------
+
+Generating model because setting 'RTLAB_Version' has changed.
+
+-------------------- Generating C code --------------------
+
+Using System Target File (TLC file) : rtlab_rtmodel.tlc...
+
+Using Template Makefile (TMF file) : rtlab_rtmodel.tmf...
+
+-------------------- Generating basic_cosimulation_c_1_sm_master C code --------------------
+Calling RTW Make Command make_rtw...
+### Starting build procedure for: basic_cosimulation_c_1_sm_master
+### Generating code and artifacts to 'Model specific' folder structure
+### Generating code into build folder: C:\Users\Antero\OPAL-RT\RT-LABv2023.1_Workspace\basic_co_simulation_circuits.zip_expanded\Co-simulation_circuit_AsyncIP_eth2_Sim01\models\Basic_cosimulation_circuit\basic_cosimulation_c_1_sm_master_rtlab
+
+artemisinfo GetFileTransferBeforeCompilation 
+
+ 
+*** Asynchronous process detected, configuring build ***
+Warning: No makefile found for asynchronous process AsyncIP. The makefile should be named AsyncIP.mk.
+*** Process name: AsyncIP
+*** Warning: No source file detected in folder "." while configuring asynchronous process, might lead to problems.
+ 
+[Warning: This model contains one or more Configurable Subsystem blocks which must be converted to a Variant Subsystem.
+Variant Subsystems provide more functionality. Support for Configurable Subsystem will be removed in a future release.
+
+Suggested Actions:
+    • Run upgrade advisor to convert Configurable Subsystems to Variant Subsystems. - <a href="matlab:upgradeadvisor('basic_cosimulation_c_1_sm_master')">Open</a>
+] 
+Third-Party Rule block detected: basic_cosimulation_c_1_sm_master/ARTEMIS Guide
+[Warning: (ARTEMiS warning) the Simulink solver of this model is set to ode4. For best real-time performance, ARTEMiS-SSN
+models should be run with the <FixedStepDiscrete>, meaning that there should not be any Simulink blocks with continuous
+state.] 
+Using SSN solver for standard state-space (single group) model: calling SSN fcn :fts6snet_ss()
+ARTEMIS-SSN: approx. memory required: 0.56014 MB (including nodal matrix)
+SSN group info
+Group 1 : 14 states, 16 inputs, 15 outputs, 6 switches. 
+SSN: Factorization stage bypassed for single group SSN model.
+
+ARTEMIS-SSN: State-space operation count: 1094
+ARTEMIS network information: the network contains 24 general electric nodes (RLC branches, sources, pi-line, etc..) 
+SSN: replacing S-function
+basic_cosimulation_c_1_sm_master_powergui_EquivalentModel1_State-Space.ssn=binary
+Third-Party Rule block detected: basic_cosimulation_c_1_sm_master/ARTEMIS Guide
+[Warning: (ARTEMiS warning) the Simulink solver of this model is set to ode4. For best real-time performance, ARTEMiS-SSN
+models should be run with the <FixedStepDiscrete>, meaning that there should not be any Simulink blocks with continuous
+state.] 
+Using SSN solver for standard state-space (single group) model: calling SSN fcn :fts6snet_ss()
+ARTEMIS-SSN: approx. memory required: 0.60622 MB (including nodal matrix)
+SSN group info
+Group 1 : 14 states, 16 inputs, 18 outputs, 6 switches. 
+SSN: Factorization stage bypassed for single group SSN model.
+
+ARTEMIS-SSN: State-space operation count: 1184
+ARTEMIS network information: the network contains 21 general electric nodes (RLC branches, sources, pi-line, etc..) 
+SSN: replacing S-function
+basic_cosimulation_c_1_sm_master_powergui_EquivalentModel2_State-Space.ssn=binary
+[Warning: Matching "From" for "Goto" '<a href="matlab:open_and_hilite_hyperlink ('basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/Control/SRF_PLL/Goto8','error')">basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/Control/SRF_PLL/Goto8</a>' not
+found] 
+[Warning: Matching "From" for "Goto" '<a href="matlab:open_and_hilite_hyperlink ('basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/Control/SRF_PLL/Goto8','error')">basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/Control/SRF_PLL/Goto8</a>' not found] 
+[Warning: Matching "From" for "Goto" '<a href="matlab:open_and_hilite_hyperlink ('basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/Goto11','error')">basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/Goto11</a>' not found] 
+[Warning: '<a href="matlab:slprivate('open_and_hilite_port_hyperlink', 'hilite', ['basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/Control/SRF_PLL'], 'Outport', 2);">Output Port 2</a>' of '<a href="matlab:open_and_hilite_hyperlink ('basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/Control/SRF_PLL','error')">basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/Control/SRF_PLL</a>' is not connected.] 
+[Warning: '<a href="matlab:slprivate('open_and_hilite_port_hyperlink', 'hilite', ['basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/Control/SRF_PLL'], 'Outport', 3);">Output Port 3</a>' of '<a href="matlab:open_and_hilite_hyperlink ('basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/Control/SRF_PLL','error')">basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/Control/SRF_PLL</a>' is not connected.] 
+[Warning: '<a href="matlab:slprivate('open_and_hilite_port_hyperlink', 'hilite', ['basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/Control/SRF_PLL'], 'Outport', 2);">Output Port 2</a>' of '<a href="matlab:open_and_hilite_hyperlink ('basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/Control/SRF_PLL','error')">basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/Control/SRF_PLL</a>' is not connected.] 
+[Warning: '<a href="matlab:slprivate('open_and_hilite_port_hyperlink', 'hilite', ['basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/Control/SRF_PLL'], 'Outport', 3);">Output Port 3</a>' of '<a href="matlab:open_and_hilite_hyperlink ('basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/Control/SRF_PLL','error')">basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/Control/SRF_PLL</a>' is not connected.] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Phase-A I/Transport Delay','error')">basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/Control/Power Measurement
+(Three-Phase)/Continuous/Phase-A I/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will
+automatically use fixed buffer of the initial buffer size set by user. Code generation results and simulation results may
+differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Phase-A V/Transport Delay','error')">basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/Control/Power Measurement
+(Three-Phase)/Continuous/Phase-A V/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will
+automatically use fixed buffer of the initial buffer size set by user. Code generation results and simulation results may
+differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Phase-B I/Transport Delay','error')">basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/Control/Power Measurement
+(Three-Phase)/Continuous/Phase-B I/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will
+automatically use fixed buffer of the initial buffer size set by user. Code generation results and simulation results may
+differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Phase-B V/Transport Delay','error')">basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/Control/Power Measurement
+(Three-Phase)/Continuous/Phase-B V/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will
+automatically use fixed buffer of the initial buffer size set by user. Code generation results and simulation results may
+differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Phase-C I/Transport Delay','error')">basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/Control/Power Measurement
+(Three-Phase)/Continuous/Phase-C I/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will
+automatically use fixed buffer of the initial buffer size set by user. Code generation results and simulation results may
+differ] 
+[Warning: Use fixed buffer size in '<a href="matlab:open_and_hilite_hyperlink ('basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Phase-C V/Transport Delay','error')">basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/Control/Power Measurement
+(Three-Phase)/Continuous/Phase-C V/Transport Delay</a>' is not selected. When generating GRT/ERT code, Simulink will
+automatically use fixed buffer of the initial buffer size set by user. Code generation results and simulation results may
+differ] 
+
+### Invoking Target Language Compiler on basic_cosimulation_c_1_sm_master.rtw
+### Using System Target File: C:\OPAL-RT\RT-LAB\2023.1\Simulink\rtw\c\common\rtlab_rtmodel.tlc
+        ### Loading TLC function libraries
+.......
+### Initial pass through model to cache user defined code
+...........
+### TLC Scope icon is not supported by RT-LAB.
+......................
+### Caching model source code
+...............................................................................
+...............................................................................
+...............................................................................
+...............................................................................
+...............................................................................
+...............................................................................
+...............................................................................
+...............................................................................
+...............................................................................
+...............................................................................
+................................
+### Writing header file basic_cosimulation_c_1_sm_master_types.h
+.
+### Writing header file basic_cosimulation_c_1_sm_master.h
+### Writing header file basic_cosimulation_c_1_sm_master_private.h
+### Writing header file rtwtypes.h
+### Writing header file builtin_typeid_types.h
+### Writing header file multiword_types.h
+### Writing header file zero_crossing_types.h
+.
+### Writing header file rtGetInf.h
+### Writing source file rtGetInf.c
+### Writing header file rtGetNaN.h
+### Writing source file rtGetNaN.c
+### Writing header file rt_defines.h
+.
+### Writing header file rt_nonfinite.h
+### Writing source file rt_nonfinite.c
+### Writing source file basic_cosimulation_c_1_sm_master.c
+### Writing header file rtmodel.h
+### Writing source file basic_cosimulation_c_1_sm_master_data.c
+### TLC code generation complete.
+......
+Version 9.6 (R2021b) 14-May-2021
+### Creating model mapping file basic_cosimulation_c_1_sm_master.map using opal_map_file.tlc
+...
+Warning:  Pseudo-workspace parameter "Inom_peak" of block "basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Tail" will not be supported for run-time tuning
+Warning:  Pseudo-workspace parameter "Inom_peak" of block "basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Tail" will not be supported for run-time tuning
+Warning:  Pseudo-workspace parameter "Ts" of block "basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Tail" will not be supported for run-time tuning
+Warning:  Pseudo-workspace parameter "Ts" of block "basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Tail" will not be supported for run-time tuning
+...........................Block path or variable "basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/Phasor_to_Time_Domain_SFA/Deg->Rad" contains unsupported character '[!?$
+Block path or variable "basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Vf 1/Vf Devices & Clamping Diodes" contains unsupported character '[!?$
+....Block path or variable "basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/Time_Domain_To_Phasor_SFA/Rad->Deg" contains unsupported character '[!?$
+................................................
+......Block path or variable "basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Vf 1/Vf Devices & Clamping Diodes" contains unsupported character '[!?$
+....................................................
+Warning:  Complex parameter of block "basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Positive I1/alpha2" will not be supported for run-time tuning
+Warning:  Complex parameter of block "basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Positive I1/alpha" will not be supported for run-time tuning
+Warning:  Complex parameter of block "basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Positive V1/alpha2" will not be supported for run-time tuning
+Warning:  Complex parameter of block "basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Positive V1/alpha" will not be supported for run-time tuning
+Warning:  Complex parameter of block "basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Negative I2/alpha" will not be supported for run-time tuning
+Warning:  Complex parameter of block "basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Negative I2/alpha2" will not be supported for run-time tuning
+Warning:  Complex parameter of block "basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Negative V2/alpha" will not be supported for run-time tuning
+.
+Warning:  Complex parameter of block "basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Negative V2/alpha2" will not be supported for run-time tuning
+Warning:  Complex parameter of block "basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Positive I1/alpha2" will not be supported for run-time tuning
+Warning:  Complex parameter of block "basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Positive I1/alpha" will not be supported for run-time tuning
+Warning:  Complex parameter of block "basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Positive V1/alpha2" will not be supported for run-time tuning
+Warning:  Complex parameter of block "basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Positive V1/alpha" will not be supported for run-time tuning
+Warning:  Complex parameter of block "basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Negative I2/alpha" will not be supported for run-time tuning
+Warning:  Complex parameter of block "basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Negative I2/alpha2" will not be supported for run-time tuning
+Warning:  Complex parameter of block "basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Negative V2/alpha" will not be supported for run-time tuning
+Warning:  Complex parameter of block "basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Negative V2/alpha2" will not be supported for run-time tuning
+Warning:  Complex parameter of block "basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/Phasor_to_Time_Domain_SFA/Gain4" will not be supported for run-time tuning
+Warning:  Complex parameter of block "basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/Time_Domain_To_Phasor_SFA/Gain" will not be supported for run-time tuning
+Warning:  Complex parameter of block "basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/Time_Domain_To_Phasor_SFA/Gain4" will not be supported for run-time tuning
+..................Block path or variable "basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/Phasor_to_Time_Domain_SFA/Deg->Rad" contains unsupported character '[!?$
+...Block path or variable "basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/Time_Domain_To_Phasor_SFA/Rad->Deg" contains unsupported character '[!?$
+..........................................................
+...............
+Warning:  Pseudo-workspace parameter "Inom_peak" of block "basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Tail" will not be supported for run-time tuning
+Warning:  Pseudo-workspace parameter "Inom_peak" of block "basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Tail" will not be supported for run-time tuning
+Warning:  Pseudo-workspace parameter "Ts" of block "basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Tail" will not be supported for run-time tuning
+Warning:  Pseudo-workspace parameter "Ts" of block "basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Tail" will not be supported for run-time tuning
+.............................Block path or variable "basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/Phasor_to_Time_Domain_SFA/Deg->Rad" contains unsupported character '[!?$
+Block path or variable "basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Vf 1/Vf Devices & Clamping Diodes" contains unsupported character '[!?$
+....Block path or variable "basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/Time_Domain_To_Phasor_SFA/Rad->Deg" contains unsupported character '[!?$
+..............................................
+.............Block path or variable "basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/ARTEMiS SSN IVIC/Model/ArtemisdiscreteIGBT/Vf 1/Vf Devices & Clamping Diodes" contains unsupported character '[!?$
+........................................................
+Warning:  Complex parameter of block "basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Positive I1/alpha2" will not be supported for run-time tuning
+.
+Warning:  Complex parameter of block "basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Positive I1/alpha" will not be supported for run-time tuning
+Warning:  Complex parameter of block "basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Positive V1/alpha2" will not be supported for run-time tuning
+Warning:  Complex parameter of block "basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Positive V1/alpha" will not be supported for run-time tuning
+Warning:  Complex parameter of block "basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Negative I2/alpha" will not be supported for run-time tuning
+Warning:  Complex parameter of block "basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Negative I2/alpha2" will not be supported for run-time tuning
+Warning:  Complex parameter of block "basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Negative V2/alpha" will not be supported for run-time tuning
+Warning:  Complex parameter of block "basic_cosimulation_c_1_sm_master/SM_Master/Original Circuit/Control/Power Measurement (Three-Phase)/Continuous/Negative V2/alpha2" will not be supported for run-time tuning
+Warning:  Complex parameter of block "basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Positive I1/alpha2" will not be supported for run-time tuning
+Warning:  Complex parameter of block "basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Positive I1/alpha" will not be supported for run-time tuning
+Warning:  Complex parameter of block "basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Positive V1/alpha2" will not be supported for run-time tuning
+.
+Warning:  Complex parameter of block "basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Positive V1/alpha" will not be supported for run-time tuning
+Warning:  Complex parameter of block "basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Negative I2/alpha" will not be supported for run-time tuning
+Warning:  Complex parameter of block "basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Negative I2/alpha2" will not be supported for run-time tuning
+Warning:  Complex parameter of block "basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Negative V2/alpha" will not be supported for run-time tuning
+Warning:  Complex parameter of block "basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/Control/Power Measurement (Three-Phase)/Discrete/Negative V2/alpha2" will not be supported for run-time tuning
+Warning:  Complex parameter of block "basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/Phasor_to_Time_Domain_SFA/Gain4" will not be supported for run-time tuning
+Warning:  Complex parameter of block "basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/Time_Domain_To_Phasor_SFA/Gain" will not be supported for run-time tuning
+Warning:  Complex parameter of block "basic_cosimulation_c_1_sm_master/SM_Master/VSC_ITM_SFA/Time_Domain_To_Phasor_SFA/Gain4" will not be supported for run-time tuning
+.......................................### Saving binary information cache.
+.
+### Processing Template Makefile: C:\OPAL-RT\RT-LAB\2023.1\Simulink\rtw\c\common\rtlab_rtmodel.tmf
+[Warning: Found legacy make variables |>SHARED_SRC<|, |>SHARED_SRC_DIR<| in the template makefile
+C:\OPAL-RT\RT-LAB\2023.1\Simulink\rtw\c\common\rtlab_rtmodel.tmf. The variables are no longer required. You can remove the
+variables.] 
+### Created makefile C:\Users\Antero\OPAL-RT\RT-LABv2023.1_Workspace\basic_co_simulation_circuits.zip_expanded\Co-simulation_circuit_AsyncIP_eth2_Sim01\models\Basic_cosimulation_circuit\basic_cosimulation_c_1_sm_master_rtlab\basic_cosimulation_c_1_sm_master.mk
+### Successful completion of code generation for: basic_cosimulation_c_1_sm_master
+### Simulink cache artifacts for 'basic_cosimulation_c_1_sm_master' were created in 'C:\Users\Antero\OPAL-RT\RT-LABv2023.1_Workspace\basic_co_simulation_circuits.zip_expanded\Co-simulation_circuit_AsyncIP_eth2_Sim01\models\Basic_cosimulation_circuit\basic_cosimulation_c_1_sm_master.slxc'.
+
+Build Summary
+
+Top model targets built:
+
+Model                             Action          Rebuild Reason                                           
+===========================================================================================================
+basic_cosimulation_c_1_sm_master  Code generated  Build artifacts are incompatible with current location.  
+
+1 of 1 models built (0 models already up to date)
+Build duration: 0h 0m 21.023s
+
+
+basic_cosimulation_c_1_sm_master : Generating C code duration : 00h:00m:27s
+Generating C code total duration : 00h:00m:27s
+
+-------------------- Completed successfully --------------------
+
+-------------------- Creating the parameter database --------------------
+Parameter(s) with more than 1000 values will be disabled. 
+Use PARAM_VECTOR_SIZE_LIMIT environment variable to modify this limit.
+Parameter database creation duration: 00h:00m:01s
+-------------------- Parameter database created successfully --------------------
+
+-------------------- Creating the signals database --------------------
+Signal(s) with more than 1000 values will be disabled.
+Use SIGNALS_VECTOR_SIZE_LIMIT environment variable to modify this limit.
+
+Signal database creation duration: 00h:00m:00s
+-------------------- Signal database created successfully --------------------
+Generating simulation data...
+Data generated in 00h:00m:00s
+
+Closing Matlab... OK.
+Creating DataLoggers...
+ - SM_Master... OK
+Updating dependencies... OK.
+Compiling model because setting 'RTLAB_Version' has changed.
+
+-------------------- Validating sources files --------------------------
+
+-------------------- Done validating source files ----------------------
+
+
+
+-------------------- Transferring the generated C code --------------------
+
+Connecting to 146.164.78.85 ... OK.
+Transferring in ascii mode C:\OPAL-RT\RT-LAB\2023.1\Simulink/rtw/c/common/linux32.opt ... OK.
+Transferring in ascii mode C:\OPAL-RT\RT-LAB\2023.1\Simulink/rtw/c/common/posix.rules ... OK.
+Transferring in ascii: C:\Users\Antero\OPAL-RT\RT-LABv2023.1_Workspace\basic_co_simulation_circuits.zip_expanded\Co-simulation_circuit_AsyncIP_eth2_Sim01\models\Basic_cosimulation_circuit\basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\settings.json (SM_Master) ... OK.
+Transferring in ascii: C:\Users\Antero\OPAL-RT\RT-LABv2023.1_Workspace\basic_co_simulation_circuits.zip_expanded\Co-simulation_circuit_AsyncIP_eth2_Sim01\models\Basic_cosimulation_circuit\basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\basic_cosimulation_c_1_sm_master*.c (SM_Master) ... Failed.
+Transferring in ascii: C:\Users\Antero\OPAL-RT\RT-LABv2023.1_Workspace\basic_co_simulation_circuits.zip_expanded\Co-simulation_circuit_AsyncIP_eth2_Sim01\models\Basic_cosimulation_circuit\basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\basic_cosimulation_c_1_sm_master*.h (SM_Master) ... Failed.
+Transferring in ascii: C:\Users\Antero\OPAL-RT\RT-LABv2023.1_Workspace\basic_co_simulation_circuits.zip_expanded\Co-simulation_circuit_AsyncIP_eth2_Sim01\models\Basic_cosimulation_circuit\basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\rtGet*.h (SM_Master) ... OK.
+Transferring in ascii: C:\Users\Antero\OPAL-RT\RT-LABv2023.1_Workspace\basic_co_simulation_circuits.zip_expanded\Co-simulation_circuit_AsyncIP_eth2_Sim01\models\Basic_cosimulation_circuit\basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\rtGet*.c (SM_Master) ... OK.
+Transferring in ascii: C:\Users\Antero\OPAL-RT\RT-LABv2023.1_Workspace\basic_co_simulation_circuits.zip_expanded\Co-simulation_circuit_AsyncIP_eth2_Sim01\models\Basic_cosimulation_circuit\basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\basic_cosimulation_c_1_sm_master.mk (SM_Master) ... OK.
+Transferring in ascii: C:\Users\Antero\OPAL-RT\RT-LABv2023.1_Workspace\basic_co_simulation_circuits.zip_expanded\Co-simulation_circuit_AsyncIP_eth2_Sim01\models\Basic_cosimulation_circuit\basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\rt_*.c (SM_Master) ... OK.
+Transferring in ascii: C:\Users\Antero\OPAL-RT\RT-LABv2023.1_Workspace\basic_co_simulation_circuits.zip_expanded\Co-simulation_circuit_AsyncIP_eth2_Sim01\models\Basic_cosimulation_circuit\basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\rt_*.h (SM_Master) ... OK.
+Transferring in ascii: C:\Users\Antero\OPAL-RT\RT-LABv2023.1_Workspace\basic_co_simulation_circuits.zip_expanded\Co-simulation_circuit_AsyncIP_eth2_Sim01\models\Basic_cosimulation_circuit\basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\zero_crossing_types*.h (SM_Master) ... OK.
+Transferring in ascii: C:\Users\Antero\OPAL-RT\RT-LABv2023.1_Workspace\basic_co_simulation_circuits.zip_expanded\Co-simulation_circuit_AsyncIP_eth2_Sim01\models\Basic_cosimulation_circuit\basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\builtin_typeid_types*.h (SM_Master) ... OK.
+Transferring in ascii: C:\Users\Antero\OPAL-RT\RT-LABv2023.1_Workspace\basic_co_simulation_circuits.zip_expanded\Co-simulation_circuit_AsyncIP_eth2_Sim01\models\Basic_cosimulation_circuit\basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\multiword_types*.h (SM_Master) ... OK.
+Transferring in ascii: C:\Users\Antero\OPAL-RT\RT-LABv2023.1_Workspace\basic_co_simulation_circuits.zip_expanded\Co-simulation_circuit_AsyncIP_eth2_Sim01\models\Basic_cosimulation_circuit\basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\rtwtypes.h (SM_Master) ... OK.
+Transferring in ascii: C:\Users\Antero\OPAL-RT\RT-LABv2023.1_Workspace\basic_co_simulation_circuits.zip_expanded\Co-simulation_circuit_AsyncIP_eth2_Sim01\models\Basic_cosimulation_circuit\basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\rtmodel.h (SM_Master) ... OK.
+Transferring in ascii: C:\Users\Antero\OPAL-RT\RT-LABv2023.1_Workspace\basic_co_simulation_circuits.zip_expanded\Co-simulation_circuit_AsyncIP_eth2_Sim01\models\Basic_cosimulation_circuit\basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\drive_basic_cosimulation_c_1_sm_master*.c (SM_Master) ... OK.
+Transferring in ascii: C:\Users\Antero\OPAL-RT\RT-LABv2023.1_Workspace\basic_co_simulation_circuits.zip_expanded\Co-simulation_circuit_AsyncIP_eth2_Sim01\models\Basic_cosimulation_circuit\basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\drive_basic_cosimulation_c_1_sm_master*.h (SM_Master) ... OK.
+Transferring in ascii: C:\Users\Antero\OPAL-RT\RT-LABv2023.1_Workspace\basic_co_simulation_circuits.zip_expanded\Co-simulation_circuit_AsyncIP_eth2_Sim01\models\Basic_cosimulation_circuit\basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\Opal*.c (SM_Master) ... OK.
+Transferring in ascii: C:\Users\Antero\OPAL-RT\RT-LABv2023.1_Workspace\basic_co_simulation_circuits.zip_expanded\Co-simulation_circuit_AsyncIP_eth2_Sim01\models\Basic_cosimulation_circuit\basic_cosimulation_circuit_sm_master\OpREDHAWKtarget\ssc_ml_fun*.h (SM_Master) ... OK.
+Transferring in ascii: C:\Users\Antero\OPAL-RT\RT-LABv2023.1_Workspace\basic_co_simulation_circuits.zip_expanded\Co-simulation_circuit_AsyncIP_eth2_Sim01\models\Basic_cosimulation_circuit\basic_cosimulation_circuit_sm_master\slprj\rtlab_rtmodel\_sharedutils\*.c (SM_Master) ... OK.
+Transferring in ascii: C:\Users\Antero\OPAL-RT\RT-LABv2023.1_Workspace\basic_co_simulation_circuits.zip_expanded\Co-simulation_circuit_AsyncIP_eth2_Sim01\models\Basic_cosimulation_circuit\basic_cosimulation_circuit_sm_master\slprj\rtlab_rtmodel\_sharedutils\*.h (SM_Master) ... OK.
+Transferring in ascii: C:\Users\Antero\OPAL-RT\RT-LABv2023.1_Workspace\basic_co_simulation_circuits.zip_expanded\Co-simulation_circuit_AsyncIP_eth2_Sim01\models\Basic_cosimulation_circuit\basic_cosimulation_circuit_sm_master\slprj\rtlab_rtmodel\_sharedutils\*.mk (SM_Master) ... OK.
+
+Transferring common RT-LAB files:
+Transferring in ascii: C:\OPAL-RT\RT-LAB\2023.1\Simulink\rtw\c\common\model_main.c (SM_Master) ... OK.
+
+Transferring user extra files:
+Transferring in ascii: C:\Users\Antero\OPAL-RT\RT-LABv2023.1_Workspace\basic_co_simulation_circuits.zip_expanded\Co-simulation_circuit_AsyncIP_eth2_Sim01\models\Basic_cosimulation_circuit\Makefile.mk (SM_Master) ... OK.
+Transferring in ascii: C:\Users\Antero\OPAL-RT\RT-LABv2023.1_Workspace\basic_co_simulation_circuits.zip_expanded\Co-simulation_circuit_AsyncIP_eth2_Sim01\models\Basic_cosimulation_circuit\include\config.h (SM_Master) ... OK.
+Transferring in ascii: C:\Users\Antero\OPAL-RT\RT-LABv2023.1_Workspace\basic_co_simulation_circuits.zip_expanded\Co-simulation_circuit_AsyncIP_eth2_Sim01\models\Basic_cosimulation_circuit\include\msg.h (SM_Master) ... OK.
+Transferring in ascii: C:\Users\Antero\OPAL-RT\RT-LABv2023.1_Workspace\basic_co_simulation_circuits.zip_expanded\Co-simulation_circuit_AsyncIP_eth2_Sim01\models\Basic_cosimulation_circuit\include\msg_format.h (SM_Master) ... OK.
+Transferring in ascii: C:\Users\Antero\OPAL-RT\RT-LABv2023.1_Workspace\basic_co_simulation_circuits.zip_expanded\Co-simulation_circuit_AsyncIP_eth2_Sim01\models\Basic_cosimulation_circuit\include\socket.h (SM_Master) ... OK.
+Transferring in ascii: C:\Users\Antero\OPAL-RT\RT-LABv2023.1_Workspace\basic_co_simulation_circuits.zip_expanded\Co-simulation_circuit_AsyncIP_eth2_Sim01\models\Basic_cosimulation_circuit\include\utils.h (SM_Master) ... OK.
+Transferring in ascii: C:\Users\Antero\OPAL-RT\RT-LABv2023.1_Workspace\basic_co_simulation_circuits.zip_expanded\Co-simulation_circuit_AsyncIP_eth2_Sim01\models\Basic_cosimulation_circuit\src\compat.c (SM_Master) ... OK.
+Transferring in ascii: C:\Users\Antero\OPAL-RT\RT-LABv2023.1_Workspace\basic_co_simulation_circuits.zip_expanded\Co-simulation_circuit_AsyncIP_eth2_Sim01\models\Basic_cosimulation_circuit\src\main.asv (SM_Master) ... OK.
+Transferring in ascii: C:\Users\Antero\OPAL-RT\RT-LABv2023.1_Workspace\basic_co_simulation_circuits.zip_expanded\Co-simulation_circuit_AsyncIP_eth2_Sim01\models\Basic_cosimulation_circuit\src\main.c (SM_Master) ... OK.
+Transferring in ascii: C:\Users\Antero\OPAL-RT\RT-LABv2023.1_Workspace\basic_co_simulation_circuits.zip_expanded\Co-simulation_circuit_AsyncIP_eth2_Sim01\models\Basic_cosimulation_circuit\src\msg.c (SM_Master) ... OK.
+Transferring in ascii: C:\Users\Antero\OPAL-RT\RT-LABv2023.1_Workspace\basic_co_simulation_circuits.zip_expanded\Co-simulation_circuit_AsyncIP_eth2_Sim01\models\Basic_cosimulation_circuit\src\socket.c (SM_Master) ... OK.
+Transferring in ascii: C:\Users\Antero\OPAL-RT\RT-LABv2023.1_Workspace\basic_co_simulation_circuits.zip_expanded\Co-simulation_circuit_AsyncIP_eth2_Sim01\models\Basic_cosimulation_circuit\src\utils.c (SM_Master) ... OK.
+Transferring in binary: C:\OPAL-RT\ARTEMIS\v7.7.3.147\art_r2021b\lib\redhawk\artemis_RT773147r2021br.a (SM_Master) ... OK.
+Transferring in binary: C:\OPAL-RT\RT-EVENTS\v4.7.3.46\rte_r2021b\lib\redhawk\libRtEvents_RT47346R2021Br.a (SM_Master) ... OK.
+
+File transfer duration : 00h:00m:02s
+-------------------- Completed successfully --------------------
+
+-------------------- Building the generated C code --------------------
+
+Executing script /usr/opalrt/v2023.1.0.533/common/python/rtlab/global/target_precompile.py ... done
+Removing relative includes from ./../basic_cosimulation_circuit_sm_master/model_main.c ...
+Done
+Executing script /usr/opalrt/v2023.1.0.533/common/python/rtlab/global/target_subsys_precompile.py ... done
+
+-------------------- Building basic_cosimulation_c_1_sm_master --------------------
+
+/usr/bin/make -f basic_cosimulation_c_1_sm_master.mk
+make[1]: Entering directory `/home/ws4/c/users/antero/opal-rt/rt-labv2023.1_workspace/basic_co_simulation_circuits.zip_expanded/co-simulation_circuit_asyncip_eth2_sim01/models/basic_cosimulation_circuit/basic_cosimulation_circuit_sm_master'
+rm -f basic_cosimulation_c_1_sm_master
+opicc -c  -O2 -xHost -falign-functions=2 -diag-disable remark,warn,cpu-dispatch    -DUSE_RTMODEL -DMODEL=basic_cosimulation_c_1_sm_master -DRT=RT -DNUMST=2 -DTID01EQ=1 -DNCSTATES=56 -DMT=0 -DTERMFCN=1 -DMULTITASKING=0 -D_SIMULINK -DRTLAB -DOP_MATLABR2021B	 -DMAT_FILE=1 -DCLASSIC_INTERFACE=1 -DONESTEPFCN=0 -DMULTI_INSTANCE_CODE=0 -DUNIX -I/usr/opalrt/externals/include   -I. -I/usr/matlab/v9.11/simulink/include -I/usr/matlab/v9.11/extern/include -I/usr/matlab/v9.11/rtw/c/src -I/usr/matlab/v9.11/rtw/c/src/matrixmath  -I/usr/matlab/v9.11/toolbox/simscape/include/drive -I/usr/matlab/v9.11/toolbox/simscape/include/mech -I/usr/matlab/v9.11/toolbox/simscape/include/foundation -I/usr/matlab/v9.11/toolbox/simscape/include/math -I/usr/matlab/v9.11/toolbox/simscape/include/lang -I/usr/matlab/v9.11/toolbox/simscape/include/external -I/usr/matlab/v9.11/toolbox/simscape/include/network_engine -I/usr/matlab/v9.11/toolbox/simscape/include/ne_sli -I/usr/matlab/v9.11/toolbox/dspblks/include -I/usr/matlab/v9.11/toolbox/simscape/include/compiler/core/c -I/usr/matlab/v9.11/toolbox/simscape/include/engine/sli/c -I/usr/matlab/v9.11/toolbox/simscape/include/engine/core/c -I/usr/matlab/v9.11/toolbox/simscape/include/utils -I/usr/matlab/v9.11/toolbox/simscape/include/pm_math -I/usr/opalrt/v2023.1.0.533/common/include -I/usr/opalrt/v2023.1.0.533/common/include_target -I/usr/opalrt/v2023.1.0.533/RT-LAB/include   -Ireferenced_model_includes -I_sharedutils  basic_cosimulation_c_1_sm_master.c
+basic_cosimulation_c_1_sm_master.h(36): catastrophic error: could not open source file "basic_cosimulation_c_1_sm_master_types.h"
+  #include "basic_cosimulation_c_1_sm_master_types.h"
+                                                     ^
+
+compilation aborted for basic_cosimulation_c_1_sm_master.c (code 4)
+make[1]: *** [basic_cosimulation_c_1_sm_master.o] Error 4
+make[1]: Leaving directory `/home/ws4/c/users/antero/opal-rt/rt-labv2023.1_workspace/basic_co_simulation_circuits.zip_expanded/co-simulation_circuit_asyncip_eth2_sim01/models/basic_cosimulation_circuit/basic_cosimulation_circuit_sm_master'
+make: *** [basic_cosimulation_c_1_sm_master.junk] Error 2
+??? Error building basic_cosimulation_c_1_sm_master subsystem.
